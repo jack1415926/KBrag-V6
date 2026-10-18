@@ -1,0 +1,23 @@
+{
+  "status": "FAILED",
+  "checks": {
+    "complete_visual_records": true,
+    "no_visual_errors": true,
+    "no_visual_fallbacks": true,
+    "section_recall_gain": false,
+    "image_recall_gain": false,
+    "product_r1_no_regression": true,
+    "mrr_tolerance": true,
+    "derived_no_regression": true,
+    "external_style_no_regression": true,
+    "latency_absolute": true,
+    "latency_relative": true,
+    "text_no_errors": true,
+    "text_recall_30_of_30": true,
+    "text_mrr_tolerance": true
+  },
+  "failed_checks": [
+    "section_recall_gain",
+    "image_recall_gain"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "question": "椅子的扶手使用一段时间后为什么会松动？",
+  "keywords": [
+    "扶手",
+    "松动",
+    "螺丝",
+    "拧紧"
+  ],
+  "products": [
+    "人体工学椅手册"
+  ],
+  "modes": [
+    "serial",
+    "batch",
+    "parallel"
+  ],
+  "repeats": 5,
+  "pause_seconds": 1.0
+}

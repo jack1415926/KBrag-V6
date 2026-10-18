@@ -1,0 +1,11 @@
+{
+  "status": "complete",
+  "current": 160,
+  "total": 160,
+  "mode": null,
+  "repeat": 0,
+  "case_id": null,
+  "errors": 0,
+  "out_dir": "experiments\\visual_batch_fusion_20260922_2rounds",
+  "updated_at": 1790087794.0771124
+}

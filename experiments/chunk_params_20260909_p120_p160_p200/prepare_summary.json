@@ -1,0 +1,96 @@
+{
+  "P120": {
+    "section_count": 1943,
+    "chunk_count": 8726,
+    "split_kinds": {
+      "whole_section": 216,
+      "window": 8510
+    },
+    "picture_only_chunk_count": 46,
+    "units": {
+      "minimum": 0,
+      "mean": 153.998,
+      "median": 147.0,
+      "p95": 228,
+      "maximum": 503
+    },
+    "chunks_per_section": {
+      "mean": 4.491,
+      "median": 3,
+      "p95": 12,
+      "maximum": 35
+    },
+    "actual_overlap_units": {
+      "samples": 6783,
+      "minimum": 0,
+      "mean": 62.479,
+      "median": 58,
+      "p95": 136,
+      "maximum": 433
+    },
+    "retrieval_chunks_sha256": "2953c55ff96fbb2462f21fbc17ceadba6c043621defb8b8ad08296a931b5123e"
+  },
+  "P160": {
+    "section_count": 1943,
+    "chunk_count": 6570,
+    "split_kinds": {
+      "whole_section": 351,
+      "window": 6219
+    },
+    "picture_only_chunk_count": 21,
+    "units": {
+      "minimum": 0,
+      "mean": 191.466,
+      "median": 185.0,
+      "p95": 275,
+      "maximum": 714
+    },
+    "chunks_per_section": {
+      "mean": 3.381,
+      "median": 3,
+      "p95": 9,
+      "maximum": 26
+    },
+    "actual_overlap_units": {
+      "samples": 4627,
+      "minimum": 0,
+      "mean": 73.036,
+      "median": 66,
+      "p95": 151,
+      "maximum": 575
+    },
+    "matches_current_retrieval_chunks": true,
+    "retrieval_chunks_sha256": "87cc9312be157107087cdc4ea082a88572e11a5f5dc2ec3084045694dbe02fa9"
+  },
+  "P200": {
+    "section_count": 1943,
+    "chunk_count": 5167,
+    "split_kinds": {
+      "whole_section": 458,
+      "window": 4709
+    },
+    "picture_only_chunk_count": 14,
+    "units": {
+      "minimum": 0,
+      "mean": 228.22,
+      "median": 225,
+      "p95": 321,
+      "maximum": 777
+    },
+    "chunks_per_section": {
+      "mean": 2.659,
+      "median": 2,
+      "p95": 7,
+      "maximum": 20
+    },
+    "actual_overlap_units": {
+      "samples": 3224,
+      "minimum": 0,
+      "mean": 80.403,
+      "median": 71.0,
+      "p95": 163,
+      "maximum": 691
+    },
+    "retrieval_chunks_sha256": "205da7b8e9f717662bb556e614e1fea14ea1220a3b0eed4ba2814fdb3e5546ac"
+  }
+}

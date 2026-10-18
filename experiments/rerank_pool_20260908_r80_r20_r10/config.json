@@ -1,0 +1,28 @@
+{
+  "created_at_utc": "2026-09-07T22:54:13.459790+00:00",
+  "python": "3.12.4",
+  "pools": [
+    80,
+    20,
+    10
+  ],
+  "repeats": 3,
+  "question_count": 30,
+  "query_method": "keywords=[], semantic_query=question, original_query=question, top_k=5, products=[expected_product]",
+  "quality_metrics": [
+    "Section Recall@5",
+    "MRR"
+  ],
+  "latency_metrics": [
+    "full retrieval median/P95",
+    "rerank median/P95"
+  ],
+  "gold_sha256": "1c5165bde70e03e5a086dd7684d5ce76ee6ab26a30eceab603ca29ca3d201899",
+  "source_sha256": {
+    "retrieval_engine.py": "5f9fffd79b365e005067edb6310c300201e6cc95ae31a6884864d1bb7009a68f",
+    "data/index/dense.faiss": "55e82fa05bbf5514a16fab6638e49d832cdae3e044729edf81aff08078ce6238",
+    "data/index/retrieval_index.pkl": "b636584692472a15fe287bdd8cd0f2687abb85f2fa638f6a6156935bcbe624a3"
+  },
+  "embedding_model": "Qwen/Qwen3-Embedding-8B",
+  "rerank_model": "Qwen/Qwen3-Reranker-8B"
+}

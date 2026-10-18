@@ -1,0 +1,9 @@
+﻿metric,value,numerator,denominator,note
+产品路由 Top-1 命中率,98.00%,343,350,route.products[0] == expected_product
+产品路由 Top-3 命中率,99.14%,347,350,expected_product in route.products[:3]
+产品路由候选覆盖率,99.14%,347,350,expected_product in route.products
+最终答案产品命中率,99.43%,348,350,基于 v6_full_reference.csv 复核，未命中 qid=432,433
+无候选路由占比,0.00%,0,350,route.products 为空
+high 置信路由占比,93.14%,326,350,ProductRouteDecision.confidence
+medium 置信路由占比,6.86%,24,350,ProductRouteDecision.confidence
+标签归一化失败数量,0,0,400,product_mapping_final.csv 标签无法映射到 catalog

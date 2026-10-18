@@ -1,0 +1,10 @@
+{
+  "_description": "Section-level business aliases injected into build_searchable_text() for BM25/dense ranking. Key: 'product|heading'. Aliases help non-manual terminology (e.g. 'battery conversion') match the correct manual section during full-library search.",
+  "aliases": {
+    "Boat|Boat Description and Components / Control function operation / Battery switches": [
+      "battery conversion",
+      "battery conversion feature",
+      "battery switch operation"
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "required_records": 10,
+  "output_file": "evaluation/visual_relevance_gold_10_external.jsonl",
+  "record_schema": {
+    "case_id": "R001",
+    "source_group": "external_style",
+    "source_type": "synthetic | user_photo | public_photo",
+    "category": "part_view",
+    "query_image": "evaluation/visual_queries/external/R001.jpg",
+    "question": "用户查询",
+    "expected_product": "产品名",
+    "relevant_sections": ["产品名|SectionID"],
+    "relevant_images": ["ManualXX_Y"],
+    "visual_style": "photorealistic",
+    "judgeable": true
+  },
+  "distribution": {
+    "part_view": 3,
+    "procedure": 4,
+    "ocr": 3,
+    "minimum_products": 5
+  },
+  "provenance": {
+    "synthetic": 6,
+    "user_photo": 1,
+    "public_photo": 3
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "fusion": {
+    "records": 80,
+    "valid": 80,
+    "errors": 0,
+    "fallbacks": 0,
+    "product_r1": 0.725,
+    "product_r5": 0.875,
+    "section_r1": 0.5875,
+    "section_r5": 0.7875,
+    "image_r1": 0.3375,
+    "image_r5": 0.6875,
+    "section_rr": 0.6660416666666666,
+    "image_rr": 0.46125,
+    "wrong_image": 0.3125,
+    "latency_median": 5.788,
+    "latency_p95": 15.256,
+    "subsets": {
+      "derived": {
+        "records": 60,
+        "section_r5": 0.7833333333333333,
+        "image_r5": 0.6833333333333333,
+        "section_mrr": 0.6213888888888889,
+        "image_mrr": 0.3983333333333333
+      },
+      "external_style": {
+        "records": 20,
+        "section_r5": 0.8,
+        "image_r5": 0.7,
+        "section_mrr": 0.8,
+        "image_mrr": 0.65
+      },
+      "synthetic": {
+        "records": 12,
+        "section_r5": 1.0,
+        "image_r5": 0.8333333333333334,
+        "section_mrr": 1.0,
+        "image_mrr": 0.8333333333333334
+      },
+      "user_photo": {
+        "records": 2,
+        "section_r5": 1.0,
+        "image_r5": 1.0,
+        "section_mrr": 1.0,
+        "image_mrr": 1.0
+      },
+      "public_photo": {
+        "records": 6,
+        "section_r5": 0.3333333333333333,
+        "image_r5": 0.3333333333333333,
+        "section_mrr": 0.3333333333333333,
+        "image_mrr": 0.16666666666666666
+      }
+    }
+  }
+}

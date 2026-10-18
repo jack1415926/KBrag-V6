@@ -1,0 +1,227 @@
+{
+  "text_embedding_http": {
+    "calls": 840,
+    "errors": 0,
+    "latency_median": 0.753498,
+    "latency_p95": 34.22008,
+    "latency_max": 108.48275,
+    "payload_bytes_median": 350.0,
+    "payload_bytes_max": 1063,
+    "slowest_call": {
+      "repeat": 1,
+      "mode": "fusion_merged",
+      "case_id": "R001",
+      "elapsed": 108.48275
+    }
+  },
+  "text_expanded_embedding": {
+    "calls": 480,
+    "errors": 0,
+    "latency_median": 0.7424364999999999,
+    "latency_p95": 23.841785,
+    "latency_max": 108.485501,
+    "payload_bytes_median": 435.0,
+    "payload_bytes_max": 1016,
+    "slowest_call": {
+      "repeat": 1,
+      "mode": "fusion_merged",
+      "case_id": "R001",
+      "elapsed": 108.485501
+    }
+  },
+  "text_expanded_product_route": {
+    "calls": 480,
+    "errors": 0,
+    "latency_median": 0.17368250000000002,
+    "latency_p95": 0.348498,
+    "latency_max": 0.669698,
+    "payload_bytes_median": 429.0,
+    "payload_bytes_max": 1008,
+    "slowest_call": {
+      "repeat": 1,
+      "mode": "fusion_merged",
+      "case_id": "R001",
+      "elapsed": 0.669698
+    }
+  },
+  "text_expanded_rerank": {
+    "calls": 360,
+    "errors": 0,
+    "latency_median": 1.976037,
+    "latency_p95": 7.996164,
+    "latency_max": 13.159836,
+    "payload_bytes_median": 23394.0,
+    "payload_bytes_max": 41762,
+    "slowest_call": {
+      "repeat": 0,
+      "mode": "vision_to_text",
+      "case_id": "V026",
+      "elapsed": 13.159836
+    }
+  },
+  "text_merged_rerank": {
+    "calls": 120,
+    "errors": 0,
+    "latency_median": 3.2512725,
+    "latency_p95": 11.705211,
+    "latency_max": 29.893898,
+    "payload_bytes_median": 41894.5,
+    "payload_bytes_max": 74394,
+    "slowest_call": {
+      "repeat": 1,
+      "mode": "fusion_merged",
+      "case_id": "V016",
+      "elapsed": 29.893898
+    }
+  },
+  "text_original_embedding": {
+    "calls": 360,
+    "errors": 0,
+    "latency_median": 0.767198,
+    "latency_p95": 37.788457,
+    "latency_max": 105.624377,
+    "payload_bytes_median": 88.0,
+    "payload_bytes_max": 136,
+    "slowest_call": {
+      "repeat": 1,
+      "mode": "fusion_merged",
+      "case_id": "V030",
+      "elapsed": 105.624377
+    }
+  },
+  "text_original_product_route": {
+    "calls": 360,
+    "errors": 0,
+    "latency_median": 0.0482765,
+    "latency_p95": 0.07067,
+    "latency_max": 0.100294,
+    "payload_bytes_median": 84.0,
+    "payload_bytes_max": 132,
+    "slowest_call": {
+      "repeat": 0,
+      "mode": "fusion_text_serial",
+      "case_id": "R003",
+      "elapsed": 0.100294
+    }
+  },
+  "text_original_rerank": {
+    "calls": 240,
+    "errors": 0,
+    "latency_median": 2.0537775,
+    "latency_p95": 8.852213,
+    "latency_max": 19.703971,
+    "payload_bytes_median": 26077.0,
+    "payload_bytes_max": 39526,
+    "slowest_call": {
+      "repeat": 1,
+      "mode": "fusion_text_serial",
+      "case_id": "V007",
+      "elapsed": 19.703971
+    }
+  },
+  "text_rerank_http": {
+    "calls": 720,
+    "errors": 0,
+    "latency_median": 2.1320395,
+    "latency_p95": 8.926447,
+    "latency_max": 29.892241,
+    "payload_bytes_median": 25865.0,
+    "payload_bytes_max": 74469,
+    "slowest_call": {
+      "repeat": 1,
+      "mode": "fusion_merged",
+      "case_id": "V016",
+      "elapsed": 29.892241
+    }
+  },
+  "vision_analysis": {
+    "calls": 120,
+    "errors": 0,
+    "latency_median": 1.854716,
+    "latency_p95": 2.957647,
+    "latency_max": 4.046299,
+    "payload_bytes_median": 41673.0,
+    "payload_bytes_max": 3788522,
+    "slowest_call": {
+      "repeat": 1,
+      "mode": "vision_precompute",
+      "case_id": "R001",
+      "elapsed": 4.046299
+    }
+  },
+  "vl_embedding_http": {
+    "calls": 720,
+    "errors": 0,
+    "latency_median": 0.8942805,
+    "latency_p95": 2.68393,
+    "latency_max": 120.477966,
+    "payload_bytes_median": 2457.0,
+    "payload_bytes_max": 3788603,
+    "slowest_call": {
+      "repeat": 1,
+      "mode": "fusion",
+      "case_id": "V023",
+      "elapsed": 120.477966
+    }
+  },
+  "vl_image_embedding": {
+    "calls": 360,
+    "errors": 1,
+    "latency_median": 0.9999165000000001,
+    "latency_p95": 3.040998,
+    "latency_max": 120.478469,
+    "payload_bytes_median": 41684.0,
+    "payload_bytes_max": 3788533,
+    "slowest_call": {
+      "repeat": 1,
+      "mode": "fusion",
+      "case_id": "V023",
+      "elapsed": 120.478469
+    }
+  },
+  "vl_rerank": {
+    "calls": 359,
+    "errors": 0,
+    "latency_median": 1.534867,
+    "latency_p95": 2.812371,
+    "latency_max": 22.875803,
+    "payload_bytes_median": 1030835,
+    "payload_bytes_max": 7704793,
+    "slowest_call": {
+      "repeat": 2,
+      "mode": "fusion_text_serial",
+      "case_id": "V017",
+      "elapsed": 22.875803
+    }
+  },
+  "vl_rerank_http": {
+    "calls": 359,
+    "errors": 0,
+    "latency_median": 1.527465,
+    "latency_p95": 2.800536,
+    "latency_max": 22.870583,
+    "payload_bytes_median": 1030912,
+    "payload_bytes_max": 7704870,
+    "slowest_call": {
+      "repeat": 2,
+      "mode": "fusion_text_serial",
+      "case_id": "V017",
+      "elapsed": 22.870583
+    }
+  },
+  "vl_text_embedding": {
+    "calls": 360,
+    "errors": 0,
+    "latency_median": 0.8438289999999999,
+    "latency_p95": 2.661225,
+    "latency_max": 58.194502,
+    "payload_bytes_median": 435.0,
+    "payload_bytes_max": 1016,
+    "slowest_call": {
+      "repeat": 1,
+      "mode": "fusion",
+      "case_id": "V026",
+      "elapsed": 58.194502
+    }
+  }
+}

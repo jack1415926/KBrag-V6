@@ -1,0 +1,50 @@
+{
+  "serial": {
+    "runs": 5,
+    "successful": 5,
+    "errors": 0,
+    "request_count_per_run": 5,
+    "total_median": 10.383487,
+    "total_p95": 50.375562,
+    "total_max": 50.375562,
+    "embedding_median": 9.012609,
+    "embedding_p95": 49.005698,
+    "embedding_max": 49.005698,
+    "serial_signature_matches": 5,
+    "http_statuses": [
+      200
+    ]
+  },
+  "batch": {
+    "runs": 5,
+    "successful": 5,
+    "errors": 0,
+    "request_count_per_run": 1,
+    "total_median": 4.32201,
+    "total_p95": 14.487604,
+    "total_max": 14.487604,
+    "embedding_median": 3.065828,
+    "embedding_p95": 12.815693,
+    "embedding_max": 12.815693,
+    "serial_signature_matches": 5,
+    "http_statuses": [
+      200
+    ]
+  },
+  "parallel": {
+    "runs": 5,
+    "successful": 5,
+    "errors": 0,
+    "request_count_per_run": 5,
+    "total_median": 5.572222,
+    "total_p95": 18.120055,
+    "total_max": 18.120055,
+    "embedding_median": 4.050622,
+    "embedding_p95": 16.665832,
+    "embedding_max": 16.665832,
+    "serial_signature_matches": 5,
+    "http_statuses": [
+      200
+    ]
+  }
+}

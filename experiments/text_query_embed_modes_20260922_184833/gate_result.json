@@ -1,0 +1,7 @@
+{
+  "recall_not_lower_each_repeat": true,
+  "mrr_delta_at_least_minus_0_01": true,
+  "zero_errors": true,
+  "batch_latency_lower": true,
+  "passed": true
+}

@@ -1,0 +1,36 @@
+# Private credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Local environment, editor state and temporary files
+.venv/
+__pycache__/
+*.py[cod]
+.idea/
+.run/
+.tmp/
+tmp/
+.DS_Store
+*.bak
+*.tmp
+
+# Raw runtime records; curated experiment reports remain eligible for Git
+*.log
+*.trace.jsonl
+*.raw.jsonl
+*.ckpt.json
+
+# Rebuildable retrieval indexes and vector caches, including experiment copies
+*.faiss
+*.pkl
+*.npy
+
+# These three evaluation photos are marked local-evaluation-only in the gold set
+/evaluation/visual_queries/external/R004.png
+/evaluation/visual_queries/external/R007.png
+/evaluation/visual_queries/external/R010.png

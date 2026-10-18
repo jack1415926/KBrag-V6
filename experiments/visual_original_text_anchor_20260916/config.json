@@ -1,0 +1,27 @@
+{
+  "date": "2026-09-16",
+  "objective": "Preserve the original-question text ranking as an independent fusion list",
+  "repeats": 3,
+  "cases": 40,
+  "modes": ["vision_to_text", "fusion"],
+  "records": 240,
+  "change": {
+    "original_text_query": "independent text retrieval",
+    "vision_augmented_query": "independent text retrieval",
+    "visual_text_query": "visual index",
+    "visual_image_query": "visual index",
+    "fusion_unit": "parent section key"
+  },
+  "sha256": {
+    "retrieval_engine.py": "4442ce6d3bb157c2ce27922e3511fea8e331567d80819ecc25d828c7779df4e1",
+    "agent.py": "d9c7f9837f1fd81cd1ce7cb54ec872ff049b16afb48f81691ad602582dadf494",
+    "runner": "c5f98e4a4a6d73ded2b68e73c63e3d7b45516d1872998a76e8e157865ee5006f",
+    "test": "9740c0f7ae8da70827bcf5a15e6322cb1e5743de791d53002b0fa4abb3588faa",
+    "derived_gold": "8c72bc44856382a346e91822e384394fae8d76f24e33664f97fae2c0fb04585c",
+    "external_gold": "3aae784f9693132e430f493ded293c4f86ba43fdffe486cd28341f601d7f05bd",
+    "visual_faiss": "846f0dfd500938d5c18b42d438c6ae42400660e03ba2cdc81d37ff87f58ab309",
+    "runs": "dd39589fc8eb920463c998dc73b2989c9e6d4698a7aec10d0a508854d5cfc0a1",
+    "summary": "7e71f91f39182ba67a60681ec3a278c8ef34426a54b767ebf4ea1834ef3ec4ca",
+    "gate_result": "d86b907c4e2d53577b5bd6c60d0c3bf2b2cf570fd1de27cd5ae50dcde5d4318f"
+  }
+}

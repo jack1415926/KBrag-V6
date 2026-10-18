@@ -1,0 +1,29 @@
+{
+  "review_version": 1,
+  "reviewed_output": "validation_outputs/service_prompt_after.jsonl",
+  "prompt_sha256": "1e4c00bbda0505e55b88649b6c8949c2fc87b80bb9fa25108b68554b63f7bc38",
+  "rubric": {
+    "fact_boundary_pass": "No unsupported timing, compensation, fee allocation, responsibility, eligibility, or platform mechanism is added.",
+    "actionable_next_step": "At least one safe action the user can take is present.",
+    "detail_score": "1-5: 1 insufficient, 3 adequate, 5 complete without irrelevant expansion.",
+    "usefulness_score": "1-5: factual safety and practical value considered together."
+  },
+  "cases": [
+    {"id":"S01","fact_boundary_pass":true,"actionable_next_step":true,"detail_score":4,"usefulness_score":4,"note":"Directly states the unknown boundary and gives evidence-preservation and after-sales steps."},
+    {"id":"S02","fact_boundary_pass":false,"actionable_next_step":true,"detail_score":3,"usefulness_score":2,"note":"Adds unsupported exception categories and says return shipping is usually paid by the buyer; also exceeds the target length."},
+    {"id":"S03","fact_boundary_pass":true,"actionable_next_step":true,"detail_score":4,"usefulness_score":4,"note":"Avoids a made-up arrival time and gives progress, payment-channel, and evidence checks."},
+    {"id":"S04","fact_boundary_pass":false,"actionable_next_step":true,"detail_score":4,"usefulness_score":3,"note":"Invents a specific quality-problem selection in the order UI, which the prompt explicitly forbids assuming."},
+    {"id":"S05","fact_boundary_pass":true,"actionable_next_step":true,"detail_score":4,"usefulness_score":4,"note":"Repeats the user's 48-hour value only to deny a guarantee and provides safe follow-up steps."},
+    {"id":"S06","fact_boundary_pass":true,"actionable_next_step":true,"detail_score":4,"usefulness_score":4,"note":"Does not allocate fees or responsibility and points to warranty information and evidence submission; length is four characters above the soft target."}
+  ],
+  "summary": {
+    "fact_boundary_pass": "4/6",
+    "actionable_next_step": "6/6",
+    "average_detail_score": 3.83,
+    "average_usefulness_score": 3.5,
+    "average_answer_chars": 161.67,
+    "average_elapsed_s": 2.07,
+    "tool_calls": 0,
+    "within_80_to_180_chars": "4/6"
+  }
+}

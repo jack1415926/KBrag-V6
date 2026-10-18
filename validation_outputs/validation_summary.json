@@ -1,0 +1,96 @@
+{
+  "dataset": {
+    "questions_total": 400,
+    "service_questions": 50,
+    "tech_questions": 350,
+    "manual_md_files": 39,
+    "section_chunks": 1943,
+    "retrieval_chunks": 6570,
+    "image_files": 2605,
+    "caption_items": 2567,
+    "full_reference_rows": 400,
+    "tech_reference_rows": 400
+  },
+  "routing": {
+    "runs": 5,
+    "total_cases_per_run": 400,
+    "all_runs_correct": true,
+    "min_accuracy": 1.0,
+    "avg_latency_s": 0.9348585,
+    "avg_disagreement_count": 8.2
+  },
+  "product_router": {
+    "total": 350,
+    "source": "data/product_mapping_final.csv",
+    "non_rag_rows_skipped": 50,
+    "unresolved_mapping_labels": [],
+    "top1_hits": 343,
+    "top1_hit_rate": 0.98,
+    "top3_hits": 347,
+    "top3_hit_rate": 0.9914285714285714,
+    "route_candidate_hits": 347,
+    "route_candidate_hit_rate": 0.9914285714285714,
+    "final_answer_product_hits": 348,
+    "final_answer_product_hit_rate": 0.9942857142857143,
+    "final_answer_product_wrong_ids": [
+      "432",
+      "433"
+    ],
+    "no_candidate": 0,
+    "no_candidate_rate": 0.0,
+    "confidence_counts": {
+      "high": 326,
+      "medium": 24
+    },
+    "reason_counts": {
+      "explicit_product_name": 262,
+      "name_and_content_agree": 10,
+      "phrase_grep_unique": 5,
+      "content_vote_only": 23,
+      "functional_alias": 1,
+      "explicit_product_nickname": 49
+    }
+  },
+  "multimodal": {
+    "total_rows": 400,
+    "tech_rows": 350,
+    "service_rows": 50,
+    "rows_with_pics": 312,
+    "total_pic_refs": 780,
+    "marker_array_match_rows": 400,
+    "marker_array_match_rate": 1.0,
+    "image_file_hit_rate": 1.0,
+    "caption_hit_rate": 0.9987179487179487,
+    "caption_category_counts": {
+      "info_table": 628,
+      "part_view": 829,
+      "schematic": 1047,
+      "noise": 60,
+      "icon": 1,
+      "warning": 2
+    },
+    "caption_section_fit_counts": {
+      "match": 2565,
+      "mismatch": 2
+    }
+  },
+  "dialogue": {
+    "run": true,
+    "base_url": "http://127.0.0.1:8000",
+    "session_id": "validation-1781484694",
+    "turns_attempted": 2,
+    "turns_ok": 2,
+    "all_ok": true
+  },
+  "outputs": {
+    "dataset_overview": "validation_outputs/dataset_overview.csv",
+    "routing_validation": "validation_outputs/routing_validation.csv",
+    "product_router_summary": "validation_outputs/product_router_summary.csv",
+    "product_router_details": "validation_outputs/product_router_details.csv",
+    "multimodal_summary": "validation_outputs/multimodal_format_summary.csv",
+    "multimodal_details": "validation_outputs/multimodal_format_details.csv",
+    "dialogue_validation": "validation_outputs/dialogue_api_validation.csv",
+    "markdown": "validation_outputs/validation_summary.md",
+    "json": "validation_outputs/validation_summary.json"
+  }
+}

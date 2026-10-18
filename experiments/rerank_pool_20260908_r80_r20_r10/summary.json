@@ -1,0 +1,110 @@
+{
+  "R80": {
+    "samples": 90,
+    "failures": 0,
+    "rerank_fallbacks": 0,
+    "quality_by_repeat": [
+      {
+        "repeat": 1,
+        "questions": 30,
+        "hits_at_5": 30,
+        "recall_at_5": 1.0,
+        "mrr": 0.9611111111111111
+      },
+      {
+        "repeat": 2,
+        "questions": 30,
+        "hits_at_5": 30,
+        "recall_at_5": 1.0,
+        "mrr": 0.9611111111111111
+      },
+      {
+        "repeat": 3,
+        "questions": 30,
+        "hits_at_5": 30,
+        "recall_at_5": 1.0,
+        "mrr": 0.9611111111111111
+      }
+    ],
+    "mean_recall_at_5": 1.0,
+    "mean_mrr": 0.9611111111111111,
+    "retrieval_median_s": 2.3638655,
+    "retrieval_p95_s": 8.70335,
+    "rerank_median_s": 1.631716,
+    "rerank_p95_s": 3.348892,
+    "candidate_median": 27.5,
+    "candidate_max": 34
+  },
+  "R20": {
+    "samples": 90,
+    "failures": 0,
+    "rerank_fallbacks": 0,
+    "quality_by_repeat": [
+      {
+        "repeat": 1,
+        "questions": 30,
+        "hits_at_5": 30,
+        "recall_at_5": 1.0,
+        "mrr": 0.9611111111111111
+      },
+      {
+        "repeat": 2,
+        "questions": 30,
+        "hits_at_5": 30,
+        "recall_at_5": 1.0,
+        "mrr": 0.9611111111111111
+      },
+      {
+        "repeat": 3,
+        "questions": 30,
+        "hits_at_5": 30,
+        "recall_at_5": 1.0,
+        "mrr": 0.9611111111111111
+      }
+    ],
+    "mean_recall_at_5": 1.0,
+    "mean_mrr": 0.9611111111111111,
+    "retrieval_median_s": 1.9330699999999998,
+    "retrieval_p95_s": 11.48923,
+    "rerank_median_s": 1.291206,
+    "rerank_p95_s": 1.663892,
+    "candidate_median": 20.0,
+    "candidate_max": 20
+  },
+  "R10": {
+    "samples": 90,
+    "failures": 0,
+    "rerank_fallbacks": 0,
+    "quality_by_repeat": [
+      {
+        "repeat": 1,
+        "questions": 30,
+        "hits_at_5": 30,
+        "recall_at_5": 1.0,
+        "mrr": 0.9444444444444444
+      },
+      {
+        "repeat": 2,
+        "questions": 30,
+        "hits_at_5": 30,
+        "recall_at_5": 1.0,
+        "mrr": 0.9444444444444444
+      },
+      {
+        "repeat": 3,
+        "questions": 30,
+        "hits_at_5": 30,
+        "recall_at_5": 1.0,
+        "mrr": 0.9444444444444444
+      }
+    ],
+    "mean_recall_at_5": 1.0,
+    "mean_mrr": 0.9444444444444444,
+    "retrieval_median_s": 1.4303154999999999,
+    "retrieval_p95_s": 4.649739,
+    "rerank_median_s": 0.8744525,
+    "rerank_p95_s": 1.665157,
+    "candidate_median": 10.0,
+    "candidate_max": 10
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "hybrid_recall_not_lower_each_repeat": true,
+  "hybrid_mrr_delta_at_least_minus_0_01": true,
+  "zero_errors": true,
+  "hybrid_uses_one_rerank": true,
+  "passed": true
+}

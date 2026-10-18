@@ -1,0 +1,35 @@
+{
+  "date": "2026-09-16",
+  "repeats": 3,
+  "cases": 40,
+  "modes": ["current_text", "vision_to_text", "visual_only", "fusion"],
+  "gold_provenance": {
+    "manual_derived": 30,
+    "gpt_image_synthetic": 6,
+    "user_photo": 1,
+    "public_photo_local_only": 3
+  },
+  "models": {
+    "text_embedding": "Qwen/Qwen3-Embedding-8B",
+    "text_rerank": "Qwen/Qwen3-Reranker-8B",
+    "visual_embedding": "Qwen/Qwen3-VL-Embedding-8B",
+    "visual_rerank": "Qwen/Qwen3-VL-Reranker-8B"
+  },
+  "settings": {
+    "visual_recall_top_n": 20,
+    "visual_section_pool": 20,
+    "visual_final_top_n": 6,
+    "strict_no_fallback": true
+  },
+  "sha256": {
+    "derived_gold": "8c72bc44856382a346e91822e384394fae8d76f24e33664f97fae2c0fb04585c",
+    "external_gold": "3aae784f9693132e430f493ded293c4f86ba43fdffe486cd28341f601d7f05bd",
+    "visual_faiss": "846f0dfd500938d5c18b42d438c6ae42400660e03ba2cdc81d37ff87f58ab309",
+    "visual_metadata": "b66a745300b3b74c78b8e4834e01ebcc63d7b759c46c1719781e04be35d8f795",
+    "retrieval_engine.py": "0c2c2bcbe2129df2257f17e7ca31c91337d33ff43ca7d99ee9b2c6c02ea59e07",
+    "visual_retrieval.py": "b8d5186b82871e006a27e66942e21639a22fe80142f11ed5503aff9be3ebaa02",
+    "runner": "990a93ff64369de39bdcd287a6ae0af1664582bc951ba07af5aeccb91c6d2021",
+    "runs": "4173902bdca6aecd81c4b60bfb8c6ebb6f6d5e44fe1129019e518fb71315ea19",
+    "summary": "76e66879ff50d8f559fa49a28b6a9a973220fa2a74cc7b3e46d988a9103a5944"
+  }
+}

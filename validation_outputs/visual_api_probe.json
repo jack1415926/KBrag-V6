@@ -1,0 +1,12 @@
+{
+  "status": "OK",
+  "timestamp": 1789471488,
+  "sample": "Qwen official public demo image",
+  "text_dimension": 4096,
+  "image_dimension": 4096,
+  "mixed_embedding_supported": true,
+  "mixed_embedding_dimension": 4096,
+  "rerank_results": 2,
+  "mixed_rerank_supported": true,
+  "mixed_rerank_results": 2
+}

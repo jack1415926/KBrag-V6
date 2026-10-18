@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "status": "frozen",
+  "frozen_at": "2026-09-08T00:14:43+08:00",
+  "record_count": 30,
+  "judgeable_count": 30,
+  "selection": "One fixed, directly answerable question from each of 30 products; 19 Chinese and 11 English questions.",
+  "annotation_rule": "A relevant Section must directly answer the question. Product names and current retrieval ranks alone are insufficient evidence.",
+  "change_policy": "Do not edit this snapshot after an experiment is inspected. Corrections require a new version, a reason, and recomputation of all affected experiment results.",
+  "gold_sha256": "1c5165bde70e03e5a086dd7684d5ce76ee6ab26a30eceab603ca29ca3d201899",
+  "source_sha256": {
+    "question_public.csv": "136418725aaaf69c7e8cdb32f52ca0f8d48a99775c36484f7731c8db4ad40646",
+    "data/section_chunks.json": "bfa86c1c2d0972d3af1e074b99fd65d0888d27253b349fb4129f3a2d8cf57f9e"
+  }
+}

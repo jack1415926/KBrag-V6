@@ -1,0 +1,16 @@
+{
+  "baseline": {
+    "records": 90,
+    "errors": 0,
+    "recall5": 1.0,
+    "mrr": 0.9611111111111111,
+    "latency_median": 3.094
+  },
+  "visual_enabled": {
+    "records": 90,
+    "errors": 0,
+    "recall5": 1.0,
+    "mrr": 0.9555555555555556,
+    "latency_median": 2.9429999999999996
+  }
+}

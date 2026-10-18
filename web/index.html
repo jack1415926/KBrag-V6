@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>KBrag 图文问答</title>
+  <style>
+    :root { color-scheme: light; font-family: system-ui, "Microsoft YaHei", sans-serif; background: #f5f7fb; color: #172033; }
+    * { box-sizing: border-box; }
+    body { margin: 0; }
+    main { width: min(920px, calc(100% - 32px)); margin: 36px auto; }
+    h1 { margin: 0 0 6px; font-size: 28px; }
+    h2 { margin: 0 0 16px; font-size: 18px; }
+    .subtitle { margin: 0 0 24px; color: #5a6578; }
+    .card { background: #fff; border: 1px solid #dfe4ec; border-radius: 14px; padding: 20px; margin-bottom: 18px; box-shadow: 0 7px 24px rgba(31, 45, 75, .06); }
+    label { display: block; margin: 12px 0 6px; font-weight: 650; }
+    input, textarea, button { font: inherit; }
+    input[type="text"], input[type="password"], textarea { width: 100%; border: 1px solid #cbd3df; border-radius: 9px; padding: 10px 12px; }
+    textarea { min-height: 92px; resize: vertical; }
+    .row { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+    button { margin-top: 15px; border: 0; border-radius: 9px; padding: 10px 18px; background: #2459d3; color: #fff; cursor: pointer; font-weight: 650; }
+    button:disabled { opacity: .55; cursor: wait; }
+    .status { min-height: 24px; margin: 12px 0 0; color: #526078; }
+    .status.error { color: #b42318; }
+    .answer { white-space: pre-wrap; line-height: 1.75; }
+    .answer img { display: block; max-width: min(100%, 680px); max-height: 520px; margin: 14px 0; border: 1px solid #d8dee8; border-radius: 10px; object-fit: contain; background: #f7f8fa; }
+    progress { width: 100%; height: 16px; margin-top: 8px; }
+    .meta { color: #667085; font-size: 14px; line-height: 1.6; }
+    @media (max-width: 680px) { .row { grid-template-columns: 1fr; } main { margin-top: 18px; } }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>KBrag 图文问答</h1>
+    <p class="subtitle">单机 FastAPI + 本地 FAISS/手册图片 + 远程模型 API</p>
+
+    <section class="card" aria-labelledby="chat-title">
+      <h2 id="chat-title">提问</h2>
+      <div class="row">
+        <div>
+          <label for="token">Bearer Token</label>
+          <input id="token" type="password" autocomplete="off" placeholder="输入 KAFU_API_TOKEN">
+        </div>
+        <div>
+          <label for="session">会话 ID</label>
+          <input id="session" type="text">
+        </div>
+      </div>
+      <label for="question">问题</label>
+      <textarea id="question">椅子的扶手使用一段时间后为什么会松动？</textarea>
+      <label for="images">可选图片 最多3张</label>
+      <input id="images" type="file" accept="image/png,image/jpeg,image/webp" multiple>
+      <button id="send" type="button">发送问题</button>
+      <p id="chat-status" class="status" role="status"></p>
+    </section>
+
+    <section class="card" aria-labelledby="answer-title">
+      <h2 id="answer-title">回答</h2>
+      <div id="answer" class="answer">尚未提问。</div>
+    </section>
+
+    <section class="card" aria-labelledby="latency-title">
+      <h2 id="latency-title">延迟基线进度</h2>
+      <div id="latency-status" class="meta">尚未运行。</div>
+      <progress id="latency-progress" value="0" max="1"></progress>
+    </section>
+  </main>
+
+  <script>
+    const tokenInput = document.querySelector("#token");
+    const sessionInput = document.querySelector("#session");
+    const questionInput = document.querySelector("#question");
+    const imageInput = document.querySelector("#images");
+    const sendButton = document.querySelector("#send");
+    const chatStatus = document.querySelector("#chat-status");
+    const answerBox = document.querySelector("#answer");
+    const latencyStatus = document.querySelector("#latency-status");
+    const latencyProgress = document.querySelector("#latency-progress");
+
+    tokenInput.value = localStorage.getItem("kbrag_token") || "";
+    sessionInput.value = localStorage.getItem("kbrag_session") || `web-${crypto.randomUUID().slice(0, 12)}`;
+
+    function fileAsDataUrl(file) {
+      return new Promise((resolve, reject) => {
+        const reader = new FileReader();
+        reader.onload = () => resolve(reader.result);
+        reader.onerror = reject;
+        reader.readAsDataURL(file);
+      });
+    }
+
+    function renderAnswer(text, images) {
+      answerBox.replaceChildren();
+      const parts = String(text || "").split("<PIC>");
+      parts.forEach((part, index) => {
+        if (part) answerBox.append(document.createTextNode(part));
+        const image = images[index];
+        if (!image) return;
+        const element = document.createElement("img");
+        element.src = image.url;
+        element.alt = `手册图片 ${image.id}`;
+        element.loading = "lazy";
+        answerBox.append(element);
+      });
+    }
+
+    async function sendQuestion() {
+      const token = tokenInput.value.trim();
+      const question = questionInput.value.trim();
+      const files = Array.from(imageInput.files || []);
+      if (!token || !question) {
+        chatStatus.textContent = "请填写Token和问题。";
+        chatStatus.className = "status error";
+        return;
+      }
+      if (files.length > 3) {
+        chatStatus.textContent = "最多上传3张图片。";
+        chatStatus.className = "status error";
+        return;
+      }
+
+      localStorage.setItem("kbrag_token", token);
+      localStorage.setItem("kbrag_session", sessionInput.value.trim());
+      sendButton.disabled = true;
+      chatStatus.className = "status";
+      const started = performance.now();
+      const timer = setInterval(() => {
+        chatStatus.textContent = `Agent处理中 已等待 ${((performance.now() - started) / 1000).toFixed(1)} 秒`;
+      }, 100);
+      try {
+        const images = await Promise.all(files.map(fileAsDataUrl));
+        const response = await fetch("/chat", {
+          method: "POST",
+          headers: { "Authorization": `Bearer ${token}`, "Content-Type": "application/json" },
+          body: JSON.stringify({
+            question,
+            images,
+            session_id: sessionInput.value.trim() || undefined,
+            stream: false
+          })
+        });
+        const payload = await response.json();
+        if (!response.ok) throw new Error(payload.detail || `HTTP ${response.status}`);
+        renderAnswer(payload.data.display_answer, payload.data.images || []);
+        sessionInput.value = payload.data.session_id;
+        localStorage.setItem("kbrag_session", payload.data.session_id);
+        chatStatus.textContent = `完成 ${(performance.now() - started).toFixed(0)} 毫秒 图片 ${payload.data.images.length} 张`;
+      } catch (error) {
+        chatStatus.textContent = `请求失败 ${error.message}`;
+        chatStatus.className = "status error";
+      } finally {
+        clearInterval(timer);
+        sendButton.disabled = false;
+      }
+    }
+
+    async function refreshLatencyStatus() {
+      try {
+        const response = await fetch("/latency-baseline/status", { cache: "no-store" });
+        const data = await response.json();
+        const current = Number(data.current || 0);
+        const total = Number(data.total || 0);
+        latencyProgress.max = Math.max(total, 1);
+        latencyProgress.value = current;
+        const detail = [
+          `状态 ${data.status || "unknown"}`,
+          `进度 ${current}/${total}`,
+          data.mode ? `模式 ${data.mode}` : "",
+          data.repeat ? `轮次 ${data.repeat}` : "",
+          data.last_elapsed == null ? "" : `最近一轮 ${Number(data.last_elapsed).toFixed(2)} 秒`,
+          data.errors == null ? "" : `错误 ${data.errors}`
+        ].filter(Boolean).join(" · ");
+        latencyStatus.textContent = detail;
+      } catch (error) {
+        latencyStatus.textContent = `无法读取进度 ${error.message}`;
+      }
+    }
+
+    sendButton.addEventListener("click", sendQuestion);
+    refreshLatencyStatus();
+    setInterval(refreshLatencyStatus, 2000);
+  </script>
+</body>
+</html>

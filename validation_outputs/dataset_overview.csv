@@ -1,0 +1,11 @@
+﻿metric,value,note
+公开题集总题数,400,question_public.csv
+客服题数量,50,按 qid < 64 统计
+技术题数量,350,按 qid >= 64 统计
+手册 Markdown 数量,39,手册_v4/*.md
+section 数量,1943,data/section_chunks.json
+retrieval chunk 数量,6570,data/retrieval_chunks.json
+手册插图文件数量,2605,手册/插图
+图片 caption 条目数量,2567,data/image_captions_v4_final.json
+完整参考提交行数,400,submissions/v6_full_reference.csv
+技术参考提交行数,400,submissions/v6_tech_reference.csv

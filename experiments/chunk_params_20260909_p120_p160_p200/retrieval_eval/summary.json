@@ -1,0 +1,152 @@
+{
+  "P120": {
+    "samples": 90,
+    "failures": 0,
+    "rerank_fallbacks": 0,
+    "quality_by_repeat": [
+      {
+        "questions": 30,
+        "hits_at_1": 28,
+        "hits_at_3": 30,
+        "hits_at_5": 30,
+        "recall_at_1": 0.9333333333333333,
+        "recall_at_3": 1,
+        "recall_at_5": 1,
+        "mrr": 0.9611111111111111
+      },
+      {
+        "questions": 30,
+        "hits_at_1": 28,
+        "hits_at_3": 30,
+        "hits_at_5": 30,
+        "recall_at_1": 0.9333333333333333,
+        "recall_at_3": 1,
+        "recall_at_5": 1,
+        "mrr": 0.9611111111111111
+      },
+      {
+        "questions": 30,
+        "hits_at_1": 28,
+        "hits_at_3": 30,
+        "hits_at_5": 30,
+        "recall_at_1": 0.9333333333333333,
+        "recall_at_3": 1,
+        "recall_at_5": 1,
+        "mrr": 0.9611111111111111
+      }
+    ],
+    "mean_recall_at_1": 0.9333333333333333,
+    "mean_recall_at_3": 1,
+    "mean_recall_at_5": 1,
+    "mean_mrr": 0.9611111111111111,
+    "retrieval_median_s": 2.5237939999999996,
+    "retrieval_p95_s": 21.072834,
+    "rerank_median_s": 1.6221405,
+    "rerank_p95_s": 2.677956,
+    "candidate_median": 27.5,
+    "candidate_max": 35,
+    "unique_parent_ratio_mean": 0.540349707323424,
+    "unique_parent_ratio_median": 0.5313725490196078,
+    "unstable_question_count": 4
+  },
+  "P160": {
+    "samples": 90,
+    "failures": 0,
+    "rerank_fallbacks": 0,
+    "quality_by_repeat": [
+      {
+        "questions": 30,
+        "hits_at_1": 28,
+        "hits_at_3": 30,
+        "hits_at_5": 30,
+        "recall_at_1": 0.9333333333333333,
+        "recall_at_3": 1,
+        "recall_at_5": 1,
+        "mrr": 0.9611111111111111
+      },
+      {
+        "questions": 30,
+        "hits_at_1": 28,
+        "hits_at_3": 30,
+        "hits_at_5": 30,
+        "recall_at_1": 0.9333333333333333,
+        "recall_at_3": 1,
+        "recall_at_5": 1,
+        "mrr": 0.9611111111111111
+      },
+      {
+        "questions": 30,
+        "hits_at_1": 27,
+        "hits_at_3": 30,
+        "hits_at_5": 30,
+        "recall_at_1": 0.9,
+        "recall_at_3": 1,
+        "recall_at_5": 1,
+        "mrr": 0.9444444444444444
+      }
+    ],
+    "mean_recall_at_1": 0.9222222222222223,
+    "mean_recall_at_3": 1,
+    "mean_recall_at_5": 1,
+    "mean_mrr": 0.9555555555555556,
+    "retrieval_median_s": 2.799536,
+    "retrieval_p95_s": 40.870969,
+    "rerank_median_s": 1.7266569999999999,
+    "rerank_p95_s": 3.440675,
+    "candidate_median": 27.5,
+    "candidate_max": 34,
+    "unique_parent_ratio_mean": 0.6036066548604481,
+    "unique_parent_ratio_median": 0.5962962962962963,
+    "unstable_question_count": 4
+  },
+  "P200": {
+    "samples": 90,
+    "failures": 0,
+    "rerank_fallbacks": 0,
+    "quality_by_repeat": [
+      {
+        "questions": 30,
+        "hits_at_1": 25,
+        "hits_at_3": 30,
+        "hits_at_5": 30,
+        "recall_at_1": 0.8333333333333334,
+        "recall_at_3": 1,
+        "recall_at_5": 1,
+        "mrr": 0.9111111111111111
+      },
+      {
+        "questions": 30,
+        "hits_at_1": 25,
+        "hits_at_3": 30,
+        "hits_at_5": 30,
+        "recall_at_1": 0.8333333333333334,
+        "recall_at_3": 1,
+        "recall_at_5": 1,
+        "mrr": 0.9111111111111111
+      },
+      {
+        "questions": 30,
+        "hits_at_1": 25,
+        "hits_at_3": 30,
+        "hits_at_5": 30,
+        "recall_at_1": 0.8333333333333334,
+        "recall_at_3": 1,
+        "recall_at_5": 1,
+        "mrr": 0.9111111111111111
+      }
+    ],
+    "mean_recall_at_1": 0.8333333333333334,
+    "mean_recall_at_3": 1,
+    "mean_recall_at_5": 1,
+    "mean_mrr": 0.9111111111111111,
+    "retrieval_median_s": 2.670674,
+    "retrieval_p95_s": 13.83994,
+    "rerank_median_s": 1.6697769999999998,
+    "rerank_p95_s": 2.938318,
+    "candidate_median": 27.0,
+    "candidate_max": 36,
+    "unique_parent_ratio_mean": 0.6743100170282345,
+    "unique_parent_ratio_median": 0.6490147783251232,
+    "unstable_question_count": 2
+  }
+}

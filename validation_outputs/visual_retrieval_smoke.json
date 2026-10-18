@@ -1,0 +1,80 @@
+{
+  "case_id": "V001",
+  "expected_product": "Air Fryer",
+  "relevant_sections": [
+    "Air Fryer|11"
+  ],
+  "relevant_images": [
+    "Manual08_0"
+  ],
+  "vision_analysis": {
+    "description": "线稿风格产品说明图，展示空气炸锅整机、控制面板、炸篮、内胆及机身背面散热口，含标注字母与MAX刻度。",
+    "ocr_text": "888\nMAX\nD\nE\nF\nG",
+    "keywords": [
+      "空气炸锅",
+      "控制面板",
+      "炸篮",
+      "MAX刻度",
+      "散热口",
+      "线稿",
+      "产品手册",
+      "内胆"
+    ]
+  },
+  "text_to_image": {
+    "images": [
+      "Manual23_120",
+      "drill0_16",
+      "Manual34_84",
+      "Manual20_69",
+      "Manual31_18"
+    ],
+    "image_rank": null
+  },
+  "image_to_image": {
+    "images": [
+      "Manual08_0",
+      "Manual25_15",
+      "Manual18_17",
+      "Manual14_14",
+      "Manual03_19"
+    ],
+    "image_rank": 1
+  },
+  "fusion": {
+    "sections": [
+      "Air Fryer|11",
+      "Air Fryer|20",
+      "烤箱手册|9",
+      "Pressure Cooker|4",
+      "Pressure Cooker|40"
+    ],
+    "section_rank": 1,
+    "channels": [
+      [
+        "bm25",
+        "text_dense",
+        "visual_image"
+      ],
+      [
+        "bm25",
+        "text_dense",
+        "visual_text"
+      ],
+      [
+        "bm25",
+        "text_dense"
+      ],
+      [
+        "bm25",
+        "text_dense"
+      ],
+      [
+        "bm25",
+        "text_dense"
+      ]
+    ],
+    "vl_rerank_fallback": false
+  },
+  "elapsed": 20.581
+}

@@ -1,0 +1,19 @@
+{
+  "physical_files": 2605,
+  "referenced_images": 2563,
+  "eligible_images": 2504,
+  "excluded_noise": 59,
+  "missing_caption": 1,
+  "unreferenced_files": 42,
+  "embedding_model": "Qwen/Qwen3-VL-Embedding-8B",
+  "embedding_dimension": 4096,
+  "completed": 2504,
+  "failures": [],
+  "last_run_elapsed": 2.103,
+  "successful_batch_elapsed": 1256.511,
+  "historical_error_records": 4,
+  "source_sha256": {
+    "section_chunks.json": "bfa86c1c2d0972d3af1e074b99fd65d0888d27253b349fb4129f3a2d8cf57f9e",
+    "image_captions_v4_final.json": "0ce41dca31a6f5c31ed899cfb05f290a1c973065310e2445e6fcd14bc94c960a"
+  }
+}

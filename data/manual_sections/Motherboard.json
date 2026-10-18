@@ -1,0 +1,2510 @@
+{
+  "manual": "Motherboard",
+  "section_count": 365,
+  "sections": [
+    {
+      "heading": "",
+      "text": "<PIC>  No part of this manual, including the products and software described in it, may be reproduced,  transmitted, transcribed, stored in a retrieval system, or translated into any language in any form or by any  means, except documentation kept by the purchaser for backup purposes, without the express written  permission.  Product warranty or service will not be extended if: (1) the product is repaired, modified or altered, unless  such repair, modification of alteration is authorized in writing; or (2) the serial number of the  product is defaced or missing.  THIS MANUAL WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS  OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES OR CONDITIONS OF  MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. IN NO EVENT SHALL ITS  DIRECTORS, OFFICERS, EMPLOYEES OR AGENTS BE LIABLE FOR ANY INDIRECT, SPECIAL,  INCIDENTAL, OR CONSEQUENTIAL DAMAGES (INCLUDING DAMAGES FOR LOSS OF PROFITS,  LOSS OF BUSINESS, LOSS OF USE OR DATA, INTERRUPTION OF BUSINESS AND THE LIKE), EVEN IF IT HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES ARISING FROM ANY  DEFECT OR ERROR IN THIS MANUAL OR PRODUCT.  SPECIFICATIONS AND INFORMATION CONTAINED IN THIS MANUAL ARE FURNISHED FOR  INFORMATIONAL USE ONLY, AND ARE SUBJECT TO CHANGE AT ANY TIME WITHOUT NOTICE,  AND SHOULD NOT BE CONSTRUED AS A COMMITMENT. IT ASSUMES NO  RESPONSIBILITY OR LIABILITY FOR ANY ERRORS OR INACCURACIES THAT MAY APPEAR IN THIS  MANUAL, INCLUDING THE PRODUCTS AND SOFTWARE DESCRIBED IN IT.  Products and corporate names appearing in this manual may or may not be registered trademarks or  copyrights of their respective companies, and are used only for identification or explanation and to the  owners’ benefit, without intent to infringe.",
+      "pics": [
+        "Manual25_0"
+      ],
+      "pic_captions": [
+        "Green vertical banner displaying Motherboard text"
+      ]
+    },
+    {
+      "heading": "",
+      "text": "Offer to Provide Source Code of Certain Software  This product contains copyrighted software that is licensed under the General Public License (“GPL”),    under the Lesser General Public License Version (“LGPL”) and/or other Free Open Source Software  Licenses. Such software in this product is distributed without any warranty to the extent permitted by the  applicable law. Copies of these licenses are included in this product.  Where the applicable license entitles you to the source code of such software and/or other additional data,  you may obtain it for a period of three years after our last shipment of the product, either  (1) for free by downloading it or  (2) for the cost of reproduction and shipment, which is dependent on the preferred carrier and the location  where you want to have it shipped to, by sending a request to:  In your request please provide the name, model number and version, as stated in the About Box of the  product for which you wish to obtain the corresponding source code and your contact details so that we  can coordinate the terms and cost of shipment with you.  The source code will be distributed WITHOUT ANY WARRANTY and licensed under the same license as  the corresponding binary/object code.  This offer is valid to anyone in receipt of this information.  It is eager to duly provide complete source code as required under various Free Open Source  Software licenses. If however you encounter any problems in obtaining the full corresponding source  code we would be much obliged if you give us a notification, stating  the product and describing the problem (please DO NOT send large attachments such as source code  archives, etc. to this email address).",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Contents  Safety information....................................................................................... iv About this guide.......................................................................................... iv Package contents........................................................................................ vi  specifications summary............................................ vi",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Chapter 1: \t Product introduction  1.1\t Before you proceed...................................................................... 1-1 1.2\t Motherboard overview.................................................................. 1-1 1.3\t Central Processing Unit (CPU).................................................... 1-3 1.4\t System memory............................................................................ 1-8 1.5\t Expansion slots........................................................................... 1-14 1.6\t Jumpers....................................................................................... 1-16 1.7\t Connectors.................................................................................. 1-17 1.8\t Onboard LED............................................................................... 1-28 1.9\t Software support......................................................................... 1-30",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Chapter 2: \t BIOS information  2.1\t Managing and updating your BIOS............................................. 2-1 2.2\t BIOS setup program..................................................................... 2-6 2.3\t My Favorites................................................................................ 2-16 2.4\t Main menu................................................................................... 2-17 2.5\t Ai Tweaker menu......................................................................... 2-19 2.6\t Advanced menu.......................................................................... 2-27 2.7\t Monitor menu.............................................................................. 2-36 2.8\t Boot menu................................................................................... 2-41 2.9\t Tool menu.................................................................................... 2-46 2.10\t Exit menu..................................................................................... 2-47 2.11\t Installing an operating system.................................................. 2-48",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Appendices  Notices........................................................................................................A-1 contact information........................................................................A-4",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Safety information Electrical safety  •\t To prevent electrical shock hazard, disconnect the power cable from the electrical outlet  before relocating the system. •\t When adding or removing devices to or from the system, ensure that the power cables  for the devices are unplugged before the signal cables are connected. If possible,  disconnect all power cables from the existing system before you add a device. •\t Before connecting or removing signal cables from the motherboard, ensure that all  power cables are unplugged. •\t Seek professional assistance before using an adapter or extension cord. These devices  could interrupt the grounding circuit. •\t Ensure that your power supply is set to the correct voltage in your area. If you are not  sure about the voltage of the electrical outlet you are using, contact your local power  company. •\t If the power supply is broken, do not try to fix it by yourself. Contact a qualified service  technician or your retailer.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Operation safety  •\t Before installing the motherboard and adding components, carefully read all the manuals  that came with the package. •\t Before using the product, ensure all cables are correctly connected and the power  cables are not damaged. If you detect any damage, contact your dealer immediately. •\t To avoid short circuits, keep paper clips, screws, and staples away from connectors,  slots, sockets and circuitry. •\t Avoid dust, humidity, and temperature extremes. Do not place the product in any area  where it may be exposed to moisture. •\t Place the product on a stable surface. •\t If you encounter technical problems with the product, contact a qualified service  technician or your retailer.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "About this guide  This user guide contains the information you need when installing and configuring the  motherboard.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "How this guide is organized  This guide contains the following parts:  •\t Chapter 1: Product introduction This chapter describes the features of the motherboard and the new technology it  supports. It includes descriptions of the switches, jumpers, and connectors on the  motherboard. •\t Chapter 2: BIOS information This chapter discusses changing system settings through the BIOS Setup menus.   Detailed descriptions for the BIOS parameters are also provided.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Where to find more information  Refer to the following sources for additional information and for product and software  updates.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "1.\t websites  The website provides updated information on hardware and software  products. Refer to the contact information.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "2.\t Optional documentation  Your product package may include optional documentation, such as warranty flyers,  that may have been added by your dealer. These documents are not part of the  standard package.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Conventions used in this guide  To ensure that you perform certain tasks properly, take note of the following symbols used  throughout this manual.  \nDANGER/WARNING:  Information to prevent injury to yourself when  completing a task.  CAUTION:  Information to prevent damage to the components when  completing a task  IMPORTANT:  Instructions that you MUST follow to complete a task.  NOTE:  Tips and additional information to help you complete a task.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Bold text  Italics <Key>  <Key1> + <Key2> + <Key3> Indicates a menu or an item to select.  Used to emphasize a word or a phrase. Keys enclosed in the less-than and greater-than sign  means that you must press the enclosed key. Example: <Enter> means that you must press the Enter or  Return key. If you must press two or more keys simultaneously, the key  names are linked with a plus sign  $(+)$  .",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "Package contents  Check your motherboard package for the following items.",
+      "text": "Package contents  Check your motherboard package for the following items.  \n<PIC>  specifications summary <PIC>  \n(continued on the next page)  \nspecifications summary \n<PIC>",
+      "pics": [
+        "Manual25_1",
+        "Manual25_2",
+        "Manual25_3"
+      ],
+      "pic_captions": [
+        "ASUS Z170 PRO GAMING package contents table",
+        "Motherboard specifications for CPU, memory, graphics, expansion slots",
+        "Motherboard specifications summary table with features"
+      ]
+    },
+    {
+      "heading": "",
+      "text": "specifications summary  Performance Optimization  -\t 5-Way Optimization tuning key perfectly consolidates TPU, EPU,  $\\mathsf{D l G l+}$  VRM, Fan Xpert 3, and Turbo App DIGI+ VRM -\t  $\\mathsf{D l G l+}$   VRM utility EPU -\t EPU  TPU -\t Auto Tuning, TurboV, GPU Boost Fan Xpert 3  featuring Fan Auto Tuning function and multiple the rm is tors  selection for optimized system cooling control",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Media Streamer  -\t Pipe music or movies from your PC to a smart TV, your entertainment goes  wherever you go! -\t Media Streamer app for portable smartphone/tablet, supporting iOS 7 &  Android 4.0 systems",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "EZ DIY  Push Notice -\t Monitor your PC status with smart devices in real time  UEFI BIOS EZ Mode  featuring friendly graphics user interface -\t O.C. Tuner -\t CrashFree BIOS 3 -\t EZ Flash 3",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "Q-Design  -\t Q-Shield -\t Q-DIMM -\t Q-LED (CPU, DRAM, VGA, Boot Device LED) -\tQ-Slot",
+      "text": "Q-Design  -\t Q-Shield -\t Q-DIMM -\t Q-LED (CPU, DRAM, VGA, Boot Device LED) -\tQ-Slot",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "<PIC>  Specifications are subject to change without notice.",
+      "text": "Exclusive Features  -\t USB 3.1 Boost featuring speedy USB 3.1 transmission -\t AI Suite 3 -\t Disk Unlocker -\t AI Charger+ -\t  CPU-Z  \n<PIC>  Specifications are subject to change without notice.",
+      "pics": [
+        "Manual25_4"
+      ],
+      "pic_captions": [
+        "Specification table listing internal connectors and BIOS features"
+      ]
+    },
+    {
+      "heading": "Product introduction",
+      "text": "Product introduction",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "1.1\t Before you proceed  Take note of the following precautions before you install motherboard components or change  any motherboard settings.  <PIC>  •  Unplug the power cord from the wall socket before touching any component. •  Before handling components, use a grounded wrist strap or touch a safely grounded  object or a metal object, such as the power supply case, to avoid damaging them due  to static electricity. •  Hold components by the edges to avoid touching the ICs on them. •  Whenever you uninstall any component, place it on a grounded antistatic pad or in the  bag that came with the component. •  Before you install or remove any component, ensure that the ATX power supply is  switched off or the power cord is detached from the power supply. Failure to do so  may cause severe damage to the motherboard, peripherals, or components.",
+      "pics": [
+        "Manual25_5"
+      ],
+      "pic_captions": [
+        "Warning triangle symbol with exclamation mark inside"
+      ]
+    },
+    {
+      "heading": "",
+      "text": "1.2\t Motherboard overview  Before you install the motherboard, study the configuration of your chassis to ensure that the  motherboard fits.  Unplug the power cord before installing or removing the motherboard. Failure to do so can  cause you physical injury and damage to motherboard components.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "1.2.1\t Placement direction  When installing the motherboard, place it into the chassis in the correct orientation. The edge  with external ports goes to the rear part of the chassis as indicated in the image.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "<PIC>",
+      "text": "1.2.2\t Screw holes  Place nine screws into the holes indicated by circles to secure the motherboard to the  chassis.  Do not over tighten the screws! Doing so can damage the motherboard.  \n<PIC>  \nPlace this side  towards the rear  of the chassis",
+      "pics": [
+        "Manual25_6"
+      ],
+      "pic_captions": [
+        "Motherboard screw holes location and rear orientation"
+      ]
+    },
+    {
+      "heading": "1.2.3\t Motherboard layout  <PIC>",
+      "text": "1.2.3\t Motherboard layout  <PIC>  \n1.2.4\t Layout contents \n<PIC>",
+      "pics": [
+        "Manual25_7",
+        "Manual25_8"
+      ],
+      "pic_captions": [
+        "ASUS Z170 PRO GAMING motherboard layout diagram",
+        "Connectors jumpers slots and LED list"
+      ]
+    },
+    {
+      "heading": "CPU socket LGA1151",
+      "text": "1.3\t Central Processing Unit (CPU)  This motherboard comes with a surface mount LGA1151 socket designed for 6th Generation processors.  <PIC>  \n CPU socket LGA1151  \nUnplug all power cables before installing the CPU.  •  Ensure that you install the correct CPU designed for the LGA1151 socket only. DO  NOT install a CPU designed for LGA1150, LGA1155 and LGA1156 sockets on the  LGA1151 socket.  •  Upon purchase of the motherboard, ensure that the PnP cap is on the socket and  the socket contacts are not bent. Contact your retailer immediately if the PnP cap  is missing, or if you see any damage to the PnP cap/socket contacts/motherboard  components.  •  Keep the cap after installing the motherboard. It will process Return Merchandise  Authorization (RMA) requests only if the motherboard comes with the cap on the  LGA1151 socket. •  The product warranty does not cover damage to the socket contacts resulting from  incorrect CPU installation/removal, or mis placement/loss/incorrect removal of the PnP  cap.",
+      "pics": [
+        "Manual25_9"
+      ],
+      "pic_captions": [
+        "ASUS Z170 PRO GAMING motherboard layout diagram"
+      ]
+    },
+    {
+      "heading": "1.3.1\t Installing the CPU  <PIC>  <PIC>",
+      "text": "1.3.1\t Installing the CPU  <PIC>  <PIC>  \n<PIC>  \n•  Ensure that the CPU is firmly clicked into place before installing it onto the CPU socket  on the motherboard. •  Use the CPU Installation Tool for installing the CPU only. DO NOT damage or bend  the CPU Installation Tool. •  Always firmly hold both sides of the CPU Installation Tool when installing, removing, or  picking up the CPU Installation Tool. • It will not cover damages resulting from incorrect CPU installation/removal,  incorrect CPU orientation/placement, or other damages resulting from negligence by  the user.",
+      "pics": [
+        "Manual25_10",
+        "Manual25_11",
+        "Manual25_12"
+      ],
+      "pic_captions": [
+        "Incorrect and correct CPU socket cap handling",
+        "CPU installation tool steps 2 and 3",
+        "CPU installation steps 4 through 8 diagram"
+      ]
+    },
+    {
+      "heading": "1.3.2\t CPU heatsink and fan assembly installation  <PIC>  <PIC>",
+      "text": "1.3.2\t CPU heatsink and fan assembly installation  <PIC>  <PIC>  \nApply the Thermal Interface Material  to the CPU heatsink and CPU  before you install the heatsink and  fan if necessary.",
+      "pics": [
+        "Manual25_13",
+        "Manual25_14"
+      ],
+      "pic_captions": [
+        "Applying thermal paste to CPU surface",
+        "Purple warning triangle with exclamation mark inside"
+      ]
+    },
+    {
+      "heading": "To install the CPU heatsink and fan assembly  <PIC>",
+      "text": "To install the CPU heatsink and fan assembly  <PIC>  \n<PIC>  To uninstall the CPU heatsink and fan assembly  <PIC>",
+      "pics": [
+        "Manual25_15",
+        "Manual25_16",
+        "Manual25_17"
+      ],
+      "pic_captions": [
+        "CPU heatsink installation and CPU_FAN connector",
+        "CPU heatsink fan assembly steps 3 and 4",
+        "CPU heatsink fan removal steps"
+      ]
+    },
+    {
+      "heading": "1.4\t System memory",
+      "text": "1.4\t System memory",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "288-pin DDR4 DIMM sockets",
+      "text": "1.4.1\t Overview  This motherboard comes with four Double Data Rate 4 (DDR4) Dual Inline Memory Module  (DIMM) sockets. A DDR4 module is notched differently from a DDR, DDR2, or DDR3 module.  DO NOT install a DDR, DDR2, or DDR3 memory module to the DDR4 slot.  DIMM voltage below 1.65 V is recommended to protect the  CPU.  <PIC>  \n 288-pin DDR4 DIMM sockets",
+      "pics": [
+        "Manual25_18"
+      ],
+      "pic_captions": [
+        "ASUS Z170 PRO GAMING DIMM socket diagram"
+      ]
+    },
+    {
+      "heading": "",
+      "text": "1.4.2  Memory configurations  You may install 2 GB, 4 GB, 8 GB, and 16 GB unbuffered non-ECC DDR4 DIMMs into the  DIMM sockets. You can refer to the recommended memory population below.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "Recommended memory configurations  <PIC>",
+      "text": "Recommended memory configurations  <PIC>  \n•  You may install varying memory sizes in Channel A and Channel B. The system maps  the total size of the lower-sized channel for the dual-channel configuration. Any excess  memory from the higher-sized channel is then mapped for single-channel operation. •  DIMM voltage below 1.65V is recommended to protect  the CPU.  •  Due to the memory address limitation on 32-bit , when you install 4GB  or more memory on the motherboard, the actual usable memory for the OS can be  about 3GB or less. For effective use of memory, we recommend that you do any of the  following: -\t Use a maximum of 3 GB system memory if you are using a 32-bit .   -   Install a 64-bit  if you want to install 4GB or more on the  motherboard.\n•  The default memory operation frequency is dependent on its Serial Presence Detect  (SPD), which is the standard way of accessing information from a memory module.  Under the default state, some memory modules for overclocking may operate at a  lower frequency than the vendor-marked value. To operate at the vendor-marked  or at a higher frequency, refer to section  2.5 Ai Tweaker menu  for manual memory  frequency adjustment.  •  Always install the DIMMS with the same CAS Latency. For an optimum compatibility,  we recommend that you install memory modules of the same version or data code  (D/C) from the same vendor. Check with the vendor to get the correct memory  modules. •  We highly recommend to use 4-DIMM/2-DIMM kit for full DIMM configuration. Full  DIMM support is subject to the physical characteristics of individual CPUs or Memory. •  For system stability, use a more efficient memory cooling system to support a full  memory load (4 DIMMs) or overclocking condition.",
+      "pics": [
+        "Manual25_19"
+      ],
+      "pic_captions": [
+        "DIMM slot population configurations with installation arrows"
+      ]
+    },
+    {
+      "heading": "motherboard memory Qualified Vendors Lists (QVL) DDR4 3400 (O.C.) MHz capability",
+      "text": "motherboard memory Qualified Vendors Lists (QVL) DDR4 3400 (O.C.) MHz capability  \n<PIC>  DDR4 3333 (O.C.) MHz capability <PIC>  \nDDR4 3300 (O.C.) MHz capability \n<PIC>  DDR4 3200 (O.C.) MHz capability \n<PIC>  DDR4 3000 (O.C.) MHz capability \n<PIC>  DDR4 2800 (O.C.) MHz capability \n<PIC>  \nDDR4 2666 (O.C.) MHz capability \n<PIC>  DDR4 2400 (O.C.) MHz capability \n<PIC>  \nDDR4 2133 MHz capability \n<PIC>  •  SS : Single-sided /  DS : Double-sided",
+      "pics": [
+        "Manual25_20",
+        "Manual25_21",
+        "Manual25_22",
+        "Manual25_23",
+        "Manual25_24",
+        "Manual25_25",
+        "Manual25_26",
+        "Manual25_27",
+        "Manual25_28"
+      ],
+      "pic_captions": [
+        "CORSAIR memory module specifications in QVL table",
+        "DDR4 3333 MHz Memory Qualified Vendors List table",
+        "DDR4 3300 MHz memory qualified vendors list",
+        "DDR4 3200 MHz QVL compatibility table",
+        "DDR4 3000 MHz memory compatibility list table",
+        "DDR4 2800 MHz memory compatibility list table",
+        "DDR4 2666 MHz memory compatibility list table",
+        "DDR4 memory vendor compatibility specification table",
+        "DDR4 2133 MHz memory compatibility list table"
+      ]
+    },
+    {
+      "heading": "",
+      "text": "DIMM support:  •  1 DIMM:    Supports one (1) module inserted into any slot as Single-channel memory  configuration. Install the module into A2 slot for better compatibility. •  2 DIMMs:    Supports two (2) modules inserted into the same color slots as one pair of  Dual-channel memory configuration. Install the modules into A2/B2 slots  for better compatibility. •  4 DIMMs:    Supports four (4) modules inserted into both A1/A2 and B1/B2 slots as two  pairs of Dual-channel memory configuration •  Visit the website for the latest QVL.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "1.4.3\t Installing a DIMM  <PIC>  To remove a DIMM  <PIC>",
+      "text": "1.4.3\t Installing a DIMM  <PIC>  To remove a DIMM  <PIC>",
+      "pics": [
+        "Manual25_29",
+        "Manual25_30"
+      ],
+      "pic_captions": [
+        "Three-step process for DIMM installation",
+        "Module removal with clip release and upward lift"
+      ]
+    },
+    {
+      "heading": "",
+      "text": "1.5\t Expansion slots  In the future, you may need to install expansion cards. The following sub‑sections describe  the slots and the expansion cards that they support.  Unplug the power cord before adding or removing expansion cards. Failure to do so may  cause you physical injury and damage motherboard components.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "1.5.1\t Installing an expansion card",
+      "text": "1.5.1\t Installing an expansion card",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "To install an expansion card:  1.  Before installing the expansion card, read the documentation that came with it and  make the necessary hardware settings for the card. 2.  Remove the system unit cover (if your motherboard is already installed in a chassis). 3.  Remove the bracket opposite the slot that you intend to use. Keep the screw for later  use. 4.  Align the card connector with the slot and press firmly until the card is completely  seated on the slot. 5.  Secure the card to the chassis with the screw you removed earlier. 6.  Replace the system cover.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "1.5.2  Configuring an expansion card  After installing the expansion card, configure it by adjusting the software settings.  1.  Turn on the system and change the necessary BIOS settings, if any. See Chapter 2 for  information on BIOS setup. 2.  Assign an IRQ to the card.  3.  Install the software drivers for the expansion card.  When using PCI cards on shared slots, ensure that the drivers support “Share IRQ” or that  the cards do not need IRQ assignments. Otherwise, conflicts will arise between the two PCI  groups, making the system unstable and the card inoperable.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "1.5.3\t PCI Express  ${\\bf3.0\\,x}1$   slots  This motherboard supports PCI Express x1 network cards, SCSI cards, and other cards that  comply with the PCI Express specifications.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "1.5.4\t PCI Express   ${\\bf3.0\\,x16}$   slots  This motherboard has three PCI Express  $3.0\\,\\mathsf{x}16$   slot that supports PCI Express 3.0 x16  graphic cards complying with the PCI Express specifications.  \n<PIC>  •  In single VGA card mode, use the PCIe  $3.0\\times16_{-}1$   slot (gray) for a PCI Express x16  graphics card to get better performance. •  We recommend that you provide sufficient power when running some modes. See page 1-22 for details. •  Connect a chassis fan to the motherboard connector labeled CHA_FAN1/2/3 when  using multiple graphics cards for better thermal environment.",
+      "pics": [
+        "Manual25_31"
+      ],
+      "pic_captions": [
+        "PCI Express operating mode configuration table"
+      ]
+    },
+    {
+      "heading": "IRQ assignments for this motherboard  <PIC>",
+      "text": "IRQ assignments for this motherboard  <PIC>",
+      "pics": [
+        "Manual25_32"
+      ],
+      "pic_captions": [
+        "Motherboard IRQ assignment sharing table"
+      ]
+    },
+    {
+      "heading": "",
+      "text": "1.\t Clear RTC RAM (2-pin CLRTC)  This header allows you to clear the Real Time Clock (RTC) RAM in CMOS. You can  clear the CMOS memory of date, time, and system setup parameters by erasing the  CMOS RTC RAM data. The onboard button cell battery powers the RAM data in  CMOS, which include system setup information such as system passwords.  <PIC>",
+      "pics": [
+        "Manual25_33"
+      ],
+      "pic_captions": [
+        "Motherboard layout showing CLRTC jumper pins location"
+      ]
+    },
+    {
+      "heading": "CPU_OV setting",
+      "text": "Clear RTC RAM  To erase the RTC RAM:  1.  Turn OFF the computer and unplug the power cord. 2.  Use a metal object such as a screwdriver to short the two pins. 3.  Plug the power cord and turn ON the computer. 4.  Hold down the < Del > key during the boot process and enter BIOS setup to reenter data.  •  If the steps above do not help, remove the onboard battery and short the two pins  again to clear the CMOS RTC RAM data. After clearing the CMOS, reinstall the  battery. •  You do not need to clear the RTC when the system hangs due to overclocking. For  system failure due to overclocking, use the CPU Parameter Recall (C.P.R.) feature.  Shut down and reboot the system, then the BIOS automatically resets parameter  settings to default values.  \n2.  CPU Over Voltage jumper (3-pin CPU_OV)  The CPU Over Voltage jumper allows you to set a higher CPU voltage for a flexible  overclocking system, depending on the type of the installed CPU. To gain more CPU  voltage setting, insert the jumper to pins 2-3. To go back to its default CPU voltage  setting, insert the jumper to pins 1-2.  <PIC>  \nCPU_OV setting",
+      "pics": [
+        "Manual25_34"
+      ],
+      "pic_captions": [
+        "CPU_OV jumper setting diagram on motherboard"
+      ]
+    },
+    {
+      "heading": "1.7\t Connectors",
+      "text": "1.7\t Connectors",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "1.7.1\t Rear panel connectors  <PIC>  1.\t PS/2 Mouse/Keyboard combo port.  This port connects to a PS/2 mouse or PS/2  keyboard. 2.\t Display Port . This port is for a Display Port-compatible devices.  3.  Video Graphics Adapter (VGA) port.  This 15-pin port is for a VGA monitor or other  VGA-compatible devices.  \n4.\t LAN (RJ-45) port.  This port allows Gigabit connection to a Local Area Network (LAN)  through a network hub.  <PIC>  LAN port LED indications \n<PIC>  5.\t Center / Subwoofer port (orange) . This port connects the center/subwoofer speakers.  6.\t Rear Speaker Out port (black) . This port connects the rear speakers in a 4.1 channel,  5.1 channel, or 7.1 channel audio configuration.  7.\t Line In port (light blue).  This port connects to the tape, CD, DVD player, or other  audio sources.  8. \t Line Out port (lime).  This port connects to a headphone or a speaker. In the 4.1, 5.1,  and 7.1 channel configurations, the function of this port becomes Front Speaker Out.  9.\t Microphone port (pink).  This port connects to a microphone.  Audio 2, 4.1, 5.1, or 7.1-channel configuration \n<PIC>  10.\t Optical S/PDIF out port.  This port allows you to connect your PC to amplified  speakers, headphones, or Sony/Phillips Digital Interconnect Format (S/PDIF) compliant  devices.  11.\t USB 3.1 Type A port . This 9-pin Universal Serial Bus (USB) Type A port is for USB  3.1 devices.  12.\t USB 3.1 Type C port . This Universal Serial Bus (USB) Type C port is for USB 3.1  mobile or peripheral devices.  \n13.\t USB 3.0 ports 3\\~6 . These 9-pin Universal Serial Bus (USB) ports are for USB 3.0  devices.  •  The plugged USB 3.0 device may run on xHCI or EHCI mode, depending on the  operating system’s setting. •  USB 3.0 devices can only be used for data storage. •  We strongly recommend that you connect USB 3.0 devices to USB 3.0 ports for faster  and better performance from your USB 3.0 devices. •  All USB devices connected to the  USB 2.0 and USB 3.0 ports are controlled by the xHCI controller. Some legacy USB  devices must update their firmware for better compatibility. •   Multi-VGA output supports up to three displays under  environment, two  displays under BIOS, and one display under DOS. •  Intel display architecture design supports the following maximum supported pixel  clocks (Pixel Clock  $=\\mathsf{H}$   total  $\\mathsf{x V}$   Total  $\\mathsf{X}$   Frame Rate (Screen refresh rate)): -  Display Port port: 553 MHz -  DVI port: 165 MHz -  VGA port: 180 MHz   -  HDMI port: 300 MHz  14. \t DVI-D port.  This port is for any DVI-D compatible device.  DVI-D can not be converted to output from RGB Signal to CRT and is not compatible with  DVI-I.  15.\t HDMI port.  This port is for a High-Definition Multimedia Interface (HDMI) connector,  and is HDCP compliant allowing playback of HD DVD, Blu-ray, and other protected  content.  16.\t USB 2.0 ports 13 and 14.  These two 4-pin Universal Serial Bus (USB) ports are for  USB 2.0/1.1 devices.",
+      "pics": [
+        "Manual25_35",
+        "Manual25_36",
+        "Manual25_37",
+        "Manual25_38"
+      ],
+      "pic_captions": [
+        "Motherboard rear panel connector layout diagram",
+        "LAN port with Activity Link Speed LED",
+        "LAN port LED status and speed indications table",
+        "Audio port function by channel configuration"
+      ]
+    },
+    {
+      "heading": "1.7.2\t Internal connectors",
+      "text": "1.7.2\t Internal connectors",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "1.\t Serial port connector (10-1 pin COM)  This connector is for a serial (COM) port. Connect the serial port module cable to this  connector, then install the module to a slot opening at the back of the system chassis.  <PIC>  Serial port (COM) connector The COM module is purchased separately.",
+      "pics": [
+        "Manual25_39"
+      ],
+      "pic_captions": [
+        "Serial port COM connector pinout diagram"
+      ]
+    },
+    {
+      "heading": "",
+      "text": "2.\t TPM connector (14-1 pin TPM)  This connector supports a Trusted Platform Module (TPM) system, which securely  store keys, digital certificates, passwords and data. A TPM system also helps enhance  the network security, protects digital identities, and ensures platform integrity.  <PIC>  TPM connector",
+      "pics": [
+        "Manual25_40"
+      ],
+      "pic_captions": [
+        "Z170 PRO GAMING TPM connector location and pinout"
+      ]
+    },
+    {
+      "heading": "",
+      "text": "3. \t  CPU, CPU optional, extension, and chassis fan connectors (4-pin CPU_FAN;  4-pin CPU_OPT; 5-pin EXT_FAN, 4-pin CHA_FAN1\\~3)  Connect the fan cables to the fan connectors on the motherboard, ensuring that the  black wire of each cable matches the ground pin of the connector.  <PIC>  \nFan connectors  •  Do not forget to connect the fan cables to the fan connectors. Insufficient air flow  inside the system may damage the motherboard components. These are not jumpers!  Do not place jumper caps on the fan connectors!  •  Ensure that the CPU fan cable is securely installed to the CPU fan connector.  •  The CPU_FAN connector supports a CPU fan of maximum 1 A (12 W) fan power. •  The CPU_FAN connector and CHA_FAN connectors support the FAN Xpert 3  feature.  •  The EXT_FAN connector supports 2 of 5 thermal sensor sources. •  The CPU fan connector detects the type of CPU fan installed and automatically  switches the control modes. To configure the CPU fan’s control mode, go to  Advanced  $>$    Monitor  $>$    Q-Fan Configuration  $>$    CPU Q-Fan Control  item in BIOS. •  The chassis fan connectors support DC and PWM modes. To set these fans to DC  or PWM, go to  Advanced  $>$    Monitor  $>$    Q-Fan Configuration  $>$  Chassis Fan 1/2/3  Q-Fan Control  items in BIOS. •  The extension fan connectors support DC and PWM modes. To set these fans to DC  or PWM, go to  Advanced  $>$    Monitor  $>$    Q-Fan Configuration  $>$  Extension Fan 1/2/3  Q-Fan Control  items in BIOS. The FAN EXTENSION CARD is purchased separately.",
+      "pics": [
+        "Manual25_41"
+      ],
+      "pic_captions": [
+        "Motherboard fan connector locations and pin definitions"
+      ]
+    },
+    {
+      "heading": "",
+      "text": "4.   ATX power connectors (24-pin EATXPWR, 8-pin ATX12V)  These connectors are for ATX power supply plugs. The power supply plugs are  designed to fit these connectors in only one orientation. Find the proper orientation and  push down firmly until the connectors completely fit.  <PIC>  \n ATX power connectors  •  For a fully configured system, we recommend that you use a power supply unit  (PSU) that complies with ATX 12 V Specification 2.0 (or later version) and provides a  minimum power of 350 W.  •  DO NOT forget to connect the 4-pin/8-pin ATX   $+12\\lor$   power plug. Otherwise, the  system will not boot up. •  We recommend that you use a PSU with higher power output when configuring a  system with more power-consuming devices or when you intend to install additional  devices. The system may become unstable or may not boot up if the power is  inadequate. •  If you are uncertain about the minimum power supply requirement for your system,  refer to the Recommended Power Supply Wattage Calculator for details.",
+      "pics": [
+        "Manual25_42"
+      ],
+      "pic_captions": [
+        "EATX12V and EATXPWR connector layout and pinout"
+      ]
+    },
+    {
+      "heading": "",
+      "text": "5.\t Thermal sensor connector (2-pin T_SENSOR)  This connector is for the thermistor cable that allows you to monitor the temperature of  your motherboard’s critical components and connected devices.  <PIC>  \nThis connector is for a chassis-mounted front panel audio I/O module that supports  either HD Audio or legacy AC\\`97 audio standard. Connect one end of the front panel  audio  $\\mathsf{I}/\\mathsf{O}$   module cable to this connector.  <PIC>  \n Front panel audio connector  •  We recommend that you connect a high-definition front panel audio module to this  connector to avail of the motherboard’s high-definition audio capability. •  If you want to connect a high-definition front panel audio module to this connector,  set the Front Panel Type item in the BIOS setup to [HD]. If you want to connect an  AC’97 front panel  audio module to this connector, set the item to [AC97]. By default,  this connector is set to [HD]. See section  2.6.7 Onboard Devices Configuration  for  details.",
+      "pics": [
+        "Manual25_43",
+        "Manual25_44"
+      ],
+      "pic_captions": [
+        "Motherboard T_SENSOR1 connector location and pin definition",
+        "AAFP connector location and pin definitions"
+      ]
+    },
+    {
+      "heading": "",
+      "text": "7.\t ROG Extension - ROG_EXT connector (18-1 pin ROG_EXT)  This connector is for the Front Base.  <PIC>",
+      "pics": [
+        "Manual25_45"
+      ],
+      "pic_captions": [
+        "ASUS Z170 PRO GAMING motherboard ROG_EXT diagram"
+      ]
+    },
+    {
+      "heading": "ROG_EXT connectors  •  The Front Base is purchased separately.",
+      "text": "ROG_EXT connectors  •  The Front Base is purchased separately. \nThis connector allows you to connect a USB 3.0 module for additional USB 3.0 front  or rear panel ports. With an installed USB 3.0 module, you can enjoy all the benefits of  USB 3.0 including faster data transfer speeds of up to 5 Gbps, faster charging time for  USB-chargeable devices, optimized power efficiency, and backward compatibility with  USB 2.0.  <PIC>   USB3.0 Front panel connector  <PIC>  \nThe USB 3.0 module is purchased separately.  •  These connectors are based on xHCI specification. We recommend you to install the  related driver to fully use the USB 3.0 ports. •  The plugged USB 3.0 device will run on xHCI mode. •  These USB 3.0 ports support native UASP transfer standard in   $\\circledcirc8.1$   and  Turbo Mode when using USB 3.0 Boost feature.",
+      "pics": [
+        "Manual25_46",
+        "Manual25_47"
+      ],
+      "pic_captions": [
+        "USB3_12 front panel connector location and pinout",
+        ""
+      ]
+    },
+    {
+      "heading": "",
+      "text": "9.\t Intel  Serial ATA 6.0Gb/s connector (7-pin SATA6G_1\\~6, SATA EXPRESS)  This connector connects to Serial ATA  $6.0\\,\\tt G b/s$   hard disk drives via Serial ATA 6.0  Gb/s signal cables.  If you installed Serial ATA hard disk drives, you can create a RAID 0, 1, 5, and 10  configuration through the onboard Intel  chipset.  <PIC>  \n   Intel  SATA 6.0Gb/s connectors  <PIC>  •  These connectors are set to  [AHCI]  by default. If you intend to create a Serial ATA  RAID set using these connectors, set the SATA Mode item in the BIOS to  [RAID] .  Refer to section  2.6.5 SATA Configuration  for details. •  Before creating a RAID set, refer to the manual bundled in the motherboard support  DVD.  The SATA EXPRESS connector can support one SATA Express device or two SATA  devices.",
+      "pics": [
+        "Manual25_48",
+        "Manual25_49"
+      ],
+      "pic_captions": [
+        "SATA connector locations and pin definitions",
+        "SATA cable connection diagram showing right-angle side"
+      ]
+    },
+    {
+      "heading": "System panel connector",
+      "text": "10.\t System panel connector (20-5 pin PANEL)  This connector supports several chassis-mounted functions.  <PIC>  \n System panel connector",
+      "pics": [
+        "Manual25_50"
+      ],
+      "pic_captions": [
+        "Motherboard system panel connector pinout diagram"
+      ]
+    },
+    {
+      "heading": "",
+      "text": "•  System power LED (4-pin +PWR_LED-)  This 2-pin connector is for the system power LED. Connect the chassis power LED  cable to this connector. The system power LED lights up when you turn on the system  power, and blinks when the system is in sleep mode.  •  Hard disk drive activity LED (2-pin +HDD_LED-)  This 2-pin connector is for the HDD Activity LED. Connect the HDD Activity LED cable  to this connector. The HDD LED lights up or flashes when data is read from or written  to the HDD.  •  System warning speaker (4-pin SPEAKER)  This 4-pin connector is for the chassis-mounted system warning speaker. The speaker  allows you to hear system beeps and warnings.  •  ATX power button/soft-off button (2-pin PWR_SW)  This connector is for the system power button. Pressing the power button turns the  system on or puts the system in sleep or soft-off mode depending on the operating  system settings. Pressing the power switch for more than four seconds while the  system is ON turns the system OFF.  •  Reset button (2-pin RESET)  This 2-pin connector is for the chassis-mounted reset button for system reboot without  turning off the system power.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "11.\t M.2 socket 3  This socket allows you to install an M.2 (NGFF) SSD module.  <PIC>   M.2(SOCKET3)  •  This socket supports M Key and type 2242/2260/2280/22110 storage devices. •  The M.2 (NGFF) SSD module is purchased separately. •  When the M.2 Socket 3 is operating in SATA mode, SATA port 1 will be disabled.",
+      "pics": [
+        "Manual25_51"
+      ],
+      "pic_captions": [
+        "ASUS Z170 PRO GAMING motherboard M.2 socket"
+      ]
+    },
+    {
+      "heading": "",
+      "text": "12.\t USB 2.0 connectors (10-1 pin USB78, USB910, USB1112)  These connectors are for USB 2.0 ports. Connect the USB module cable to any of  these connectors, then install the module to a slot opening at the back of the system  chassis. These USB connectors comply with USB 2.0 specifications and supports up to  480Mbps connection speed.  <PIC>",
+      "pics": [
+        "Manual25_52"
+      ],
+      "pic_captions": [
+        "Motherboard USB connector location and pinouts"
+      ]
+    },
+    {
+      "heading": "USB2.0 connectors  <PIC>",
+      "text": "USB2.0 connectors  <PIC>  \nNever connect a 1394 cable to the USB connectors. Doing so will damage the  motherboard!  The USB 2.0 module is purchased separately.",
+      "pics": [
+        "Manual25_53"
+      ],
+      "pic_captions": [
+        "Electrical hazard warning symbol triangle lightning bolt"
+      ]
+    },
+    {
+      "heading": "1.8\t Onboard LED",
+      "text": "1.8\t Onboard LED",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "Onboard LED",
+      "text": "1.\t Standby Power LED (SB_PWR)  The motherboard comes with a standby power LED that lights up to indicate that the  system is ON, in sleep mode, or in soft-off mode. This is a reminder that you should  shut down the system and unplug the power cable before removing or plugging in any  motherboard component. The illustration below shows the location of the onboard LED.  <PIC>  \n Onboard LED",
+      "pics": [
+        "Manual25_54"
+      ],
+      "pic_captions": [
+        "Motherboard onboard LED location and status indicator"
+      ]
+    },
+    {
+      "heading": "<PIC>",
+      "text": "2.\t Model name LEDs  The model name LEDs are a group of five small LEDs, located right below the printed  model name. The LEDs light up in the following two modes to highlight the model  name.  <PIC>   Model name LED Lighting You can turn off the model name LEDs or change the lit modes from the BIOS or the LED  Control app in Ai Suite 3. To change the setting in BIOS, go to  Advanced  $>$    Onboard  Devices Configuration  $>$  Model Name LED Lighting  item. See section  2.6.7 Onboard  Devices Configuration  for details. \n<PIC>",
+      "pics": [
+        "Manual25_55",
+        "Manual25_56"
+      ],
+      "pic_captions": [
+        "Model name LED location on motherboard",
+        "LED Lit mode description table"
+      ]
+    },
+    {
+      "heading": "<PIC>",
+      "text": "3.\t SupremeFX LED  The SupremeFX LED lights up in the following three ways to bring you an ultimate  lighting effect. This LED also outlines the separation of the audio components from the  rest of your motherboard.  <PIC>  \nSupremeFX LED   SupremeFX LED Lighting You can turn off the SupremeFX LED or change the lit modes from the BIOS or the LED  Control app in Ai Suite 3. To change the setting in BIOS, go to  Advanced  $>$    Onboard  Devices Configuration  $>$    SupremeFX LED Lighting  item. See section  2.6.7 Onboard  Devices Configuration  for details.  \n<PIC>",
+      "pics": [
+        "Manual25_57",
+        "Manual25_58"
+      ],
+      "pic_captions": [
+        "Motherboard layout with red line path outline",
+        "LED lit mode description table"
+      ]
+    },
+    {
+      "heading": "",
+      "text": "1.9\t Software support 1.9.1\t Installing an operating system  This motherboard supports  (32-bit / 64-bit),  8.1 (64-bit) and  10 (64-bit) Operating Systems (OS). Always install the latest OS version and corresponding  updates to maximize the features of your hardware.  Motherboard settings and hardware options vary. Refer to your OS documentation for  detailed information.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "1.9.2  Support DVD information  The Support DVD that comes with the motherboard package contains the drivers, software  applications, and utilities that you can install to avail all motherboard features.  The contents of the Support DVD are subject to change at any time without notice.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "To run the Support DVD  Place the Support DVD into the optical drive. If Autorun is enabled in your computer, the DVD  automatically displays the lists of the unique features of your motherboard. Click the  Driver ,  Utilities ,  Manual , or  Special  tabs to display their respective menus.  The following screen is for reference only.  <PIC>  \nClick an icon to display a tab  If Autorun is NOT enabled in your computer, browse the contents of the Support DVD to  locate the file Setup.exe in the root folder. Double-click the Setup.exe to run the DVD.",
+      "pics": [
+        "Manual25_59"
+      ],
+      "pic_captions": [
+        "ASUS Z170 PRO GAMING support CD driver list"
+      ]
+    },
+    {
+      "heading": "BIOS information",
+      "text": "BIOS information",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "2.1\t Managing and updating your BIOS  Save a copy of the original motherboard BIOS file to a USB flash disk in case you need  to restore the BIOS in the future. Copy the original motherboard BIOS using the Update utility.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "2.1.1\tEZ Update  EZ Update is a utility that allows you to automatically update your motherboard’s softwares,  drivers and the BIOS version easily. With this utlity, you can also manually update the saved  BIOS and select a boot logo when the system goes into POST.  To launch EZ Update, click  EZ Update  on the AI Suite 3 main menu bar.  Click to automatically  motherboard’s driver,  software and firmware  <PIC>  EZ Update requires an Internet connection either through a network or an ISP (Internet  Service Provider).",
+      "pics": [
+        "Manual25_60"
+      ],
+      "pic_captions": [
+        "ASUS EZ Update utility interface screenshot"
+      ]
+    },
+    {
+      "heading": "",
+      "text": "2.1.2\t EZ Flash 3  The EZ Flash 3 feature allows you to update the BIOS without using an OS‑based  utility.  •\t Ensure that you load the BIOS default settings to ensure system compatibility and  stability. Select the  Load Optimized Defaults  item under the Exit menu. See section  2.10 Exit Menu  for details. •\t Check your Internet connection before updating the BIOS via the Internet.  <PIC>",
+      "pics": [
+        "Manual25_61"
+      ],
+      "pic_captions": [
+        "EZ Flash Update BIOS selection screen interface"
+      ]
+    },
+    {
+      "heading": "",
+      "text": "To update the BIOS using EZ Flash 3:  1.\t Enter the  Advanced Mode  of the BIOS setup program. Go to the  Tool  menu to select EZ Flash 3 Utility  and press <Enter> to enable it.  2.\t Follow the steps below to update the BIOS via USB or Internet.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Via USB  a)\t Insert the USB flash disk that contains the latest BIOS file to the USB port, then  select  by USB . b)\t Press <Tab> to switch to the  Drive  field. c)\t Press the Up/Down arrow keys to find the USB flash disk that contains the latest  BIOS, and then press <Enter>.  d)\t Press <Tab> to switch to the  Folder Info  field. e)\t Press the Up/Down arrow keys to find the BIOS file, and then press <Enter> to  perform the BIOS update process.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Via the Internet  a)\t Select  by Internet .  b)\t Press the Left/Right arrow keys to select an Internet connection method, and then  press <Enter>. c)\t Follow the onscreen instructions to complete the update.  3.\t Reboot the system when the update process is done.  •\t EZ Flash 3 supports USB devices, such as a USB flash disk, with FAT 32/16  format and single partition only. •\t DO NOT shut down or reset the system while updating the BIOS to prevent system  boot failure!",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "2.1.3\t CrashFree BIOS 3 utility  The CrashFree BIOS 3 is an auto recovery tool that allows you to restore the BIOS file  when it fails or gets corrupted during the updating process. You can restore a corrupted BIOS  file using the motherboard support DVD or a USB flash drive that contains the updated BIOS  file.  •\t Before using this utility, rename the BIOS file in the removable device into  Z17PG. CAP . •\t The BIOS file in the support DVD may not be the latest version. Download the latest  BIOS file.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "Recovering the BIOS",
+      "text": "Recovering the BIOS",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "To recover the BIOS:  1.\t Turn on the system.  2.\t Insert the support DVD to the optical drive or the USB flash drive that contains the  BIOS file to the USB port. 3.\t The utility automatically checks the devices for the BIOS file. When found, the utility  reads the BIOS file and enters EZ Flash 3 utility automatically. 4.\t The system requires you to enter BIOS Setup to recover BIOS settings. To ensure  system compatibility and stability, we recommend that you press   $\\scriptstyle<\\mathsf{F}5>$   to load default  BIOS values.  DO NOT shut down or reset the system while updating the BIOS! Doing so can cause  system boot failure!",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "2.1.4\tBIOS Updater  BIOS Updater allows you to update the BIOS in DOS environment.  The screen captures used in this section are for reference only and may not be exactly the  same as actually shown on your computer screen.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Before updating BIOS  •\t Prepare the motherboard support DVD and a USB flash drive.  •\t Download the latest BIOS file and BIOS Updater and  save them in your USB flash drive.  NTFS is not supported under FreeDOS environment. Ensure that your USB flash drive is in  single partition and in FAT32/16 format.  •\t Turn off the computer.  •\t Ensure that your computer has a DVD optical drive.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Booting the system in DOS environment  To boot the system in DOS:  1.\t Insert the USB flash drive with the latest BIOS file and BIOS Updater to the USB port.  2.\t Boot your computer then press  $\\scriptstyle<\\mathsf{F}8>$   to launch the select boot device screen.  3.\t When the select boot device screen appears, insert the Support DVD into the optical  drive then select the optical drive as the boot device.  <PIC>  4. \t When the booting message appears, press <Enter> within five (5) seconds to enter  FreeDOS prompt.  ISOLINUX 3.20 2006-08-26 Copyright (C) 1994-2005 H. Peter Anvin A Bootable DVD/CD is detected. Press ENTER to boot from the DVD/CD. If no key is pressed within 5 seconds, the system will boot next priority device automatically. boot:  5.\t On the FreeDOS prompt, type  d:  then press <Enter> to switch the disk from Drive C  (optical drive) to Drive D (USB flash drive).  \nUpdating the BIOS file  To update the BIOS file:  1.\t On the FreeDOS prompt, type  bupdater /pc /g  and press <Enter>.  D:/> bupdater /pc /g  2.\t On the BIOS Updater screen, press <Tab> to switch from Files panel to Drives panel  then select  D: .  \n<PIC>  3.\t Press <Tab> to switch from Drives panel to Files panel then press <Up/Down or Home/ End> keys to select the BIOS file and press <Enter>.  4.\t After the BIOS Updater checks the selected BIOS file, select  Yes  to confirm the BIOS  update.  <PIC>  The BIOS Backup feature is not supported due to security regulations.  5.\t Select  Yes  then press <Enter>. When BIOS update is done, press  $_{<\\mathsf{E S C}>}$   to exit BIOS  Updater.  6.\t Restart your computer.  DO NOT shut down or reset the system while updating the BIOS to prevent system boot  failaure.  Ensure to load the BIOS default settings to ensure system compatibility and stability. Select  the  Load Optimized Defaults  item under the  Exit  BIOS menu. See section  2.10 Exit  Menu  for details.",
+      "pics": [
+        "Manual25_62",
+        "Manual25_63",
+        "Manual25_64"
+      ],
+      "pic_captions": [
+        "BIOS boot device selection screen menu",
+        "BIOS Updater screen showing drives and files",
+        "BIOS update confirmation dialog box"
+      ]
+    },
+    {
+      "heading": "",
+      "text": "2.2\t BIOS setup program  Use the BIOS Setup program to update the BIOS or configure its parameters. The BIOS  screens include navigation keys and brief online help to guide you in using the BIOS Setup  program.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Entering BIOS Setup at startup  To enter BIOS Setup at startup:  Press <Delete> or  $\\scriptstyle<\\!\\mathsf{F}^{2}\\!>$   during the Power-On Self Test (POST). If you do not press <Delete>  or  $\\tt<F2>$  , POST continues with its routines.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Entering BIOS Setup after POST  To enter BIOS Setup after POST:  Press <Ctrl>  $^{\\cdot+}$  <Alt>  $\\mathbf{\\Psi}^{+}$  <Del> simultaneously.  Press the reset button on the system chassis.  Press the power button to turn the system off then back on. Do this option only if you failed to  enter BIOS Setup using the first two options.  Using the power button, reset button, or the <Ctrl>  $^{\\cdot+}$  <Alt>  $^{+}$  <Del> keys to force reset from a  running operating system can cause damage to your data or system. We recommend you  always shut down the system properly from the operating system.  •\t The BIOS setup screens shown in this section are for reference purposes only, and  may not exactly match what you see on your screen.  •\t Download the latest BIOS file for this  motherboard. •\t Ensure that a USB mouse is connected to your motherboard if you want to use the  mouse to control the BIOS setup program. •\t If the system becomes unstable after changing any BIOS setting, load the default  settings to ensure system compatibility and stability. Select the  Load Optimized  Defaults  item under the Exit menu or press hotkey F5. See section  2.10 Exit Menu   for details. •\t If the system fails to boot after changing any BIOS setting, try to clear the CMOS and  reset the motherboard to the default value. See section  1.6 Headers  for information  on how to erase the RTC RAM.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "BIOS menu screen  The BIOS setup program can be used under two modes:  EZ Mode  and  Advanced Mode Press  $\\scriptstyle<\\mathsf{F}7>$   to change between the two modes.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "2.2.1\t EZ Mode  By default, the EZ Mode screen appears when you enter the BIOS setup program. The EZ  Mode provides you an overview of the basic system information, and allows you to select the  display language, system performance mode, fan profile and boot device priority. To access  the Advanced Mode, click  Advanced Mode(F7)  or press  $\\scriptstyle<\\mathsf{F}7>$  .  The default screen for entering the BIOS setup program can be changed. Refer to the  Setup Mode  item in section  2.8 Boot menu  for details.  <PIC>  The boot device options vary depending on the devices you installed to the system.",
+      "pics": [
+        "Manual25_65"
+      ],
+      "pic_captions": [
+        "ASUS UEFI BIOS Utility EZ Mode screen"
+      ]
+    },
+    {
+      "heading": "To access the EZ Mode, click  EzMode(F7)  or press  $\\scriptstyle<\\mathsf{F}7>$  .  <PIC>",
+      "text": "2.2.2\t Advanced Mode  The Advanced Mode provides advanced options for experienced end-users to configure the  BIOS settings. The figure below shows an example of the  Advanced Mode . Refer to the  following sections for the detailed configurations.  <PIC>  \nTo access the EZ Mode, click  EzMode(F7)  or press  $\\scriptstyle<\\mathsf{F}7>$  .  <PIC>",
+      "pics": [
+        "Manual25_66",
+        "Manual25_67"
+      ],
+      "pic_captions": [
+        "",
+        "ASUS UEFI BIOS Utility Advanced Mode screen layout"
+      ]
+    },
+    {
+      "heading": "Menu bar  The menu bar on top of the screen has the following main items:  <PIC>",
+      "text": "Menu bar  The menu bar on top of the screen has the following main items:  <PIC>",
+      "pics": [
+        "Manual25_68"
+      ],
+      "pic_captions": [
+        "BIOS setup menu categories and functions table"
+      ]
+    },
+    {
+      "heading": "",
+      "text": "Menu items  The highlighted item on the menu bar displays the specific items for that menu. For example,  selecting  Main  shows the Main menu items.  The other items (My Favorites, Ai Tweaker, Advanced, Monitor, Boot, Tool, and Exit) on the  menu bar have their respective menu items.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Submenu items  A greater than sign   $(>)$   before each item on any menu screen means that the item has a  submenu. To display the submenu, select the item and press <Enter>.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Language  This button above the menu bar contains the languages that you can select for your BIOS.  Click this button to select the language that you want to display in your BIOS screen.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "My Favorites (F3)  This button above the menu bar shows all BIOS items in a Tree Map setup. Select frequentlyused BIOS settings and save it to My Favorites menu.  Refer to section  2.3 My Favorites  for more information.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Q-Fan Control (F6)  This button above the menu bar displays the current settings of your fans. Use this button to  manually tweak the fans to your desired settings.  Refer to section  2.2.3 QFan Control  for more information.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "EZ Tuning Wizard (F11)  This button above the menu bar allows you to view and tweak the overclocking settings of  your system. It also allows you to change the motherboard’s SATA mode from AHCI to RAID  mode.  Refer to section  2.2.4 EZ Tuning Wizard  for more information.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Quick Note (F9)  This button above the menu bar allows you to key in notes of the activities that you have  done in BIOS.  •\t The Quick Note function does not support the following keyboard functions: delete,  cut, copy and paste. •\t You can only use the alphanumeric characters to enter your notes.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Hot keys  This button above the menu bar contains the navigation keys for the BIOS setup program.  Use the navigation keys to select items in the menu and change the settings.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Search on FAQ  Move your mouse over this button to show a QR code. Scan this QR code with your mobile  device to connect to the BIOS FAQ web page. You can also scan the QR code below.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Scroll bar  A scroll bar appears on the right side of a menu screen when there are items that do not fit  on the screen. Press the Up/Down arrow keys or <Page Up> / <Page Down> keys to display  the other items on the screen.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "General help  At the top right corner of the menu screen is a brief description of the selected item. Use   $\\mathopen<\\mathclose\\bgroup\\left.\\mathsf{F}12>\\right.$   key to capture the BIOS screen and save it to the removable storage device.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Configuration fields  These fields show the values for the menu items. If an item is user-configurable, you can  change the value of the field opposite the item. You cannot select an item that is not \t user-configurable.  A configurable field is highlighted when selected. To change the value of a field, select it and  press <Enter> to display a list of options.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "Last Modified button  This button shows the items that you last modified and saved in BIOS Setup.",
+      "text": "Last Modified button  This button shows the items that you last modified and saved in BIOS Setup.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "2.2.3\t QFan Control  The QFan Control allows you to set a fan profile or manually configure the operating speed of  your CPU and chassis fans.  <PIC>",
+      "pics": [
+        "Manual25_69"
+      ],
+      "pic_captions": [
+        "Q-Fan Control settings interface in UEFI BIOS"
+      ]
+    },
+    {
+      "heading": "",
+      "text": "Configuring fans manually  Select  Manual  from the list of profiles to manually configure your fans’ operating speed.  <PIC>  To configure your fans:  1.\t Select the fan that you want to configure and to view its current status. 2.\t Click and drag the speed points to adjust the fans’ operating speed. 3.\t Click  Apply  to save the changes then click  Exit (ESC) .",
+      "pics": [
+        "Manual25_70"
+      ],
+      "pic_captions": [
+        "Q-Fan Control Manual Configuration Screen"
+      ]
+    },
+    {
+      "heading": "System OC setup RAID setup",
+      "text": "2.2.4\t EZ Tuning Wizard  EZ Tuning Wizard allows you to overclock your CPU and DRAM, computer usage, and CPU  fan to their best settings. You can also easily set RAID in your system using this feature.  <PIC>  \nSystem OC setup RAID setup",
+      "pics": [
+        "Manual25_71"
+      ],
+      "pic_captions": [
+        "ASUS UEFI BIOS EZ Tuning Wizard OC setup interface"
+      ]
+    },
+    {
+      "heading": "",
+      "text": "Tuning your system settings  To tune your settings:  1.\t Press <F11> on your keyboard or click   from the BIOS screen to open  EZ Tuning Wizard screen, then click  Next .  2.\t Select a PC scenario  Daily Computing  or  Gaming/Media Editing , then click  Next .  3.\t Select the CPU fan type ( Box cooler ,  Tower cooler , or  Water cooler ) that you  installed then click  Next .  If you are not sure of the CPU fan type, click  I’m not sure . The system automatically  detects the CPU fan type.  4.\t Click  Next  then click  Yes  to confirm auto-tuning.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Creating RAID  To create RAID:  1.\t Press <F11> on your keyboard or click   from the BIOS screen to open  EZ Tuning Wizard screen.  2.\t Click  RAID   then click  Yes  to enable RAID.  •\t Ensure that your HDDs have no existing RAID volumes. •\t Ensure to connect your HDDs to Intel SATA connectors.  3.\t The available HDDs display. Click  Next  to continue.  <PIC>  4.\t Select the type of storage for your RAID  Easy Backup  or  Super Speed , then click  Next .  <PIC>  \na.\t For Easy Backup, select from  Easy Backup (RAID1)  or  Easy Backup (RAID10)  then click  Next .  <PIC>  You can only select Easy Backup (RAID 10) if you connect four (4) HDDs.  b.\t For Super Speed, select from  Super Speed (RAID0)  or  Super Speed (RAID5)  then click  Next .  <PIC>  5.\t After selecting the type of RAID, click  Yes  to continue the RAID setup.  6.\t After the RAID setup is done, click  Yes  to exit the setup then click  OK  to reset your  system.",
+      "pics": [
+        "Manual25_72",
+        "Manual25_73",
+        "Manual25_74",
+        "Manual25_75"
+      ],
+      "pic_captions": [
+        "EZ RAID Setup Wizard Storage Configuration Screen",
+        "Storage Function Selection screen: Easy Backup, Super Speed",
+        "Storage Function Selection screen showing RAID options",
+        "Storage Function Selection screen with RAID options"
+      ]
+    },
+    {
+      "heading": "",
+      "text": "2.3\t My Favorites  My Favorites is your personal space where you can easily save and access your favorite BIOS items.  <PIC>  My Favorites comes with several performance, power saving, and fast boot related items by  default. You can personalize this screen by adding or removing items.",
+      "pics": [
+        "Manual25_76"
+      ],
+      "pic_captions": [
+        "ASUS UEFI BIOS Utility My Favorites screen"
+      ]
+    },
+    {
+      "heading": "Adding items to My Favorites  To add BIOS items:  <PIC>",
+      "text": "Adding items to My Favorites  To add BIOS items:  <PIC>  \n3.\t Select an item from main menu panel, then click the submenu that you want to save as  favorite from the submenu panel and click  .  You cannot add the following items to My Favorite items: •\t User-managed items such as language and boot order  4.\t Click  Exit (ESC)  or press <esc> key to close Setup Tree Map screen.  5.\t Go to My Favorites menu to view the saved BIOS items.",
+      "pics": [
+        "Manual25_77"
+      ],
+      "pic_captions": [
+        "BIOS Setup Tree Map screen with menu panels"
+      ]
+    },
+    {
+      "heading": "",
+      "text": "2.4\t Main menu  The Main menu screen appears when you enter the Advanced Mode of the BIOS Setup  program. The Main menu provides you an overview of the basic system information, and  allows you to set the system date, time, language, and security settings.  <PIC>",
+      "pics": [
+        "Manual25_78"
+      ],
+      "pic_captions": [
+        "ASUS UEFI BIOS Utility Main Menu Screen"
+      ]
+    },
+    {
+      "heading": "",
+      "text": "2.4.1\t Language [English]  Allows you to choose the BIOS language version from the options.# 2.4.2\t Security  The Security menu items allow you to change the system security settings.  •\t If you have forgotten your BIOS password, erase the CMOS Real Time Clock (RTC)  RAM to clear the BIOS password. See section  1.6 Headers  for information on how to  erase the RTC RAM. •\t The  Administrator  or  User Password  items on top of the screen show the default  Not Installed . After you set a password, these items show  Installed .",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Administrator Password  If you have set an administrator password, we recommend that you enter the administrator  password for accessing the system.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "To set an administrator password:  1.\t Select the  Administrator Password  item and press <Enter>. 2.\t From the  Create New Password  box, key in a password, then press <Enter>. 3.\t From the  Confirm New Password  box, key in your password again to confirm the  password, then click  OK .  To change an administrator password:  1.\t Select the  Administrator Password  item and press <Enter>. 2.\t From the  Enter Current Password  box, key in the current password, then press  <Enter>. 3.\t From the  Create New Password  box, key in a new password, then press <Enter>. 4.\t From the  Confirm New Password  box, key in your password again to confirm the  password, then click  OK .  To clear the administrator password, follow the same steps as in changing an administrator  password, but click  OK  when prompted to create/confirm the password. After you clear the  password, the Administrator Password item on top of the screen shows Not Installed.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "User Password  If you have set a user password, you must enter the user password for accessing the system.  The  User Password  item on top of the screen shows the default  Not Installed . After you set  a password, this item shows  Installed .",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "To set a user password:  1.\t Select the  User Password  item and press <Enter>. 2.\t From the  Create New Password  box, key in a password, then press <Enter>. 3.\t From the  Confirm New Password  box, key in your password again to confirm the  password, then click  OK .",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "To change a user password:  1.\t Select the  User Password  item and press <Enter>. 2.\t From the  Enter Current Password  box, key in the current password, then press  <Enter>. 3.\t From the  Create New Password  box, key in a new password, then press <Enter>. 4.\t From the  Confirm New Password  box, key in your password again to confirm the  password, then click  OK .  To clear the user password, follow the same steps as in changing a user password, but click  OK  when prompted to create/confirm the password. After you clear the password, the  User  Password item on top of the screen shows Not Installed.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "2.5\t Ai Tweaker menu  The Ai Tweaker menu items allow you to configure overclocking-related items.  Be cautious when changing the settings of the Ai Tweaker menu items. Incorrect field  values can cause the system to malfunction.  The configuration options for this section vary depending on the CPU and DIMM model you  installed on the motherboard.  Scroll down to display other BIOS items.  <PIC>",
+      "pics": [
+        "Manual25_79"
+      ],
+      "pic_captions": [
+        "Ai Tweaker menu with Ai Overclock Tuner"
+      ]
+    },
+    {
+      "heading": "",
+      "text": "2.5.1\t Ai Overclock Tuner [Auto]  This item allows you to select the CPU overclocking options to achieve the desired CPU  internal frequency. Select any of these preset overclocking configuration options:  [Auto]\t [Manual]\t Loads the optimal settings for the system automatically. Allows you to assign the BCLK (base clock) frequency manually.  The following items appear only when you set the Ai Overclocking Tuner to  [Manual] .",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "BCLK Frequency [100.00]  This item allows you to set the BCLK (base clock) frequency to enhance the system  performance. Use the  ${<}+>$   or  $<->$   to adjust the value. The values range from 40.0 MHz to   $500.0\\:\\mathsf{M H z}$  .  We recommend you to set the value based on the CPU specification, as high BCLK  frequencies may damage the CPU permanently.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "BCLK Amplitude [Auto]  This item allows you to set the magnitude of the base clock driven for the processor. High  values may improve overclocking stability. Configuration options: [Auto] [700mV] [800mV]  [900mV] [1000mV]",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "BCLK Frequency Slew Rate [Auto]  This item allows you to set the frequency update rate. Lower values speed up clock changes.    Configuration options: [Auto] [40us/MHz] [80us/MHz] [128us/MHz] [512us/MHz]",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "2.5.2\tMultiCore Enhancement [Auto]  [Auto]\t This item allows you to maximize the ove clocking performance optimized  by core ratio settings. [Disabled]\t This item allows you to set to default core ratio settings.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "2.5.3\t CPU Core Ratio [Auto]  This item allows you to set the CPU core ratio limit per core or synchronize automatically to  all cores. Configuration options: [Auto] [Sync All Cores] [Per Core]  When the CPU Core Ratio is set to [ Sync All Cores ] or  [Per Core] , the following items  appear.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "1-Core Ratio Limit [Auto]  Select  [Auto]  to apply the CPU default Turbo Ratio setting or manually assign a 1-Core Limit  value that must be higher than or equal to the 2-Core Ratio Limit.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "If you assign a value for 2-Core Ratio Limit, do not set the 1-Core Ratio Limit to  [Auto] .",
+      "text": "2-Core Ratio Limit [Auto]  Select  [Auto]  to apply the CPU default Turbo Ratio setting or manually assign a 2-Core Limit  value that must be higher than or equal to the 3-Core Ratio Limit.  <PIC>  \nIf you assign a value for 2-Core Ratio Limit, do not set the 1-Core Ratio Limit to  [Auto] .",
+      "pics": [
+        "Manual25_80"
+      ],
+      "pic_captions": [
+        "Warning triangle with exclamation mark icon"
+      ]
+    },
+    {
+      "heading": "",
+      "text": "3-Core Ratio Limit [Auto]  Select  [Auto]  to apply the CPU default Turbo Ratio setting or manually assign a 3-Core Limit  value that must be higher than or equal to the 4-Core Ratio Limit.  If you assign a value for 3-Core Ratio Limit, do not set the 1-Core Ratio Limit and 2-Core  Ratio Limit to  [Auto] .",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "4-Core Ratio Limit [Auto]  Select  [Auto]  to apply the CPU default Turbo Ratio setting or manually assign a 4-Core Limit  value that must be higher than or equal to the 3-Core Ratio Limit.  If you assign a value for 4-Core Ratio Limit, do not set the 1-Core Ratio Limit, 2-Core Ratio  Limit, and 3-Core Ratio to  [Auto] .",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "2.5.4\t BCLK Frequency: DRAM Frequency Ratio [Auto]  Allows you to set the CPU bus speed to DRAM speed ratio mode.  [Auto]\t DRAM speed is set to the optimized settings. [100:133]\t The BCLK frequency to DRAM speed ratio is set to 100:133. [100:100]\t The BCLK frequency to DRAM speed ratio is set to 100:100.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "2.5.5\t DRAM Odd Ratio Mode [Enabled]  Enable the odd ratio mode for better granularity. Configuration options: [Disabled] [Enabled]",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "2.5.6\t DRAM Frequency [Auto]  This item allows you to set the memory operating frequency. The configurable options vary  with the BCLK (base clock) frequency setting. Select the auto mode to apply the optimized  setting. Configuration options: [DDR4-800MHz] [DDR4-933MHz] [DDR4-1066MHz] [DDR4- 1200MHz] [DDR4-1333MHz] [DDR4-1400MHz] \\~ [DDR4-4133MHz] [DDR4-4266MHz]  Selecting a very high memory frequency may cause the system to become unstable! If this  happens, revert to the default setting.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "2.5.7\t OC Tuner [Keep Current Settings]  This item allows you to automatically overclock the CPU and DRAM frequencies and voltage  for an enhanced system performance. It also accelerates the CPU graphics performance to  the extreme depending on the CPU graphics loading. Configuration options: [Keep Current  Settings] [Ratio Tuning] [BCLK  $^+$   Ratio Tuning]  Ensure that you installed an efficient CPU fan for CPU and graphics loading before  selecting either  [BCLK  $^+$   Ratio Tuning]  or  [Ratio Tuning] . To keep the current  overclocking tuner status, select  [Keep Current Settings] .",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "2.5.8\t EPU Power Saving Mode [Disabled]  EPU (Energy Processing Unit) sets the CPU in its minimum power consumption  settings. Enable this item to set lower CPU VCCIN and Vcore voltages and achieve the best  energy saving condition. Configuration options: [Disabled] [Enabled]",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "2.5.9\t CPU SVID Support [Auto]  Disable this item to stop the processor from communicating with the external voltage  regulator. Configuration options: [Auto] [Disabled] [Enabled]",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "2.5.10\t DRAM Timing Control  The subitems in this menu allow you to set the DRAM timing control features. Use the   ${<}+>$   and  $<->$   keys to adjust the value. To restore the default setting, type [auto] using the  keyboard and press the <Enter> key.  Changing the values in this menu may cause the system to become unstable! If this  happens, revert to the default settings.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "2.5.11\t DIGI+ VRM",
+      "text": "2.5.11\t DIGI+ VRM",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "CPU Load-Line Calibration [Auto]  Load-line is defined by Intel VRM specification and affects the CPU power voltage. The CPU  working voltage will decrease proportionally depending on the CPU loading. Higher levels  of the load-line calibration can get a higher voltage and a better overclocking performance  but increases the CPU and VRM thermal. Select from level 1 to 7 to adjust the CPU power  voltage from  $0\\%$   to  $100\\%$  . Configuration options: [Auto] [Level 1] [Level 2] [Level 3] [Level 4]  [Level 5] [Level 6] [Level 7]  The boosted performance may vary depending on the CPU specification. Do not remove  the thermal module.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "CPU Current Capability [Auto]  Allows you to configure the total power range, and extends the overclocking frequency range  simultaneously. Configuration options: [Auto]   $[100\\%]$   $10\\%]$  ]   $[120\\%]$     $[130\\%]$   $[140\\%]$  Choose a higher value when overclocking, or under a high CPU loading for extra power  support.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "CPU VRM Switching Frequency [Auto]  This item affects the VRM transient response speed and the component thermal production.  Select [Manual] to configure a higher frequency for a quicker transient response speed.  Configuration options: [Auto] [Manual]  <PIC>  \nDO NOT remove the thermal module. The thermal conditions should be monitored.  The following item appears only when you set the CPU VRM Switching Frequency to  [Manual] .",
+      "pics": [
+        "Manual25_81"
+      ],
+      "pic_captions": [
+        ""
+      ]
+    },
+    {
+      "heading": "",
+      "text": "Fixed CPU VRM Switching Frequency (KHz) [300]  This item allows you to set a higher frequency for a quicker transient response speed.  Use the  ${<}+>$   and  $<->$   keys to adjust the value. The values range from 250KHz to  500KHz with a  $50\\mathsf{K}\\mathsf{H}z$   interval.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "CPU Power Duty Control [T.Probe]  DIGI  $^+$   VRM Duty control adjusts the current and thermal conditions of every component’s  phase.  [T. Probe] Select to maintain the VRM thermal balance. [Extreme] Select to maintain the current VRM balance.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "CPU Power Phase Control [Auto]  This item allows you to set the power phase control of the CPU. Configuration options: [Auto]  [Standard] [Optimized] [Extreme]",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "CPU Graphics Load-Line Calibration [Auto]  Load-line is defined by Intel VRM specification and affects the GT power voltage. The GT  working voltage will decrease proportionally depending on the GT loading. Higher levels of  the load-line calibration can get a higher voltage and a better overclocking performance but  increases the GT and VRM thermal. Select from level 1 to 7 to adjust the GT power voltage  from  $0\\%$   to   $100\\%$  . Configuration options: [Auto] [Level 1] [Level 2] [Level 3] [Level 4] [Level 5]  [Level 6] [Level 7]  The boosted performance may vary depending on the GT specification. Do not remove the  thermal module.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "CPU Graphics Current Capability [Auto]  Allows you to configure the total power range, and extends the overclocking frequency range  simultaneously. Configuration options: [Auto]  $[100\\%]$   [1  $10\\%]$  ]   $[120\\%]$     $[130\\%]$   $[140\\%]$  Choose a higher value when overclocking, or under a high GT loading for extra power  support.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "CPU Graphics Switching Frequency [Auto]  This item affects the GT transient response speed and the component thermal production.  Select [Manual] to configure a higher frequency for a quicker transient response speed.  Configuration options: [Auto] [Manual]  DO NOT remove the thermal module. The thermal conditions should be monitored.  The following item appears only when you set the GT VRM Switching Frequency to  [Manual] .",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Fixed VCCGT Switching Frequency (KHz) [300]  This item allows you to set a higher frequency for a quicker transient response speed.  Use the  ${<}+>$   and  $<->$   keys to adjust the value. The values range from 250KHz to   $500\\mathsf{K H z}$   with a  $50\\mathsf{K}\\mathsf{H}z$   interval.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "GT Power Phase Control [Auto]  This item allows you to set the power phase control of GT. Configuration options: [Auto]  [Standard] [Optimized] [Extreme]",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "2.5.12\t Internal CPU Power Management  The subitems in this menu allow you to set the CPU ratio and their features.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Intel SpeedStep  [Enabled]  This item allows the operating system to dynamically adjust the processor voltage and cores  frequency, resulting to a decreased average power consumption and decreased average  heat production. Configuration options: [Disabled] [Enabled]",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Turbo Mode [Enabled]  This item allows you to enable your core processor’s speed to run faster than the base  operating frequency when it is below operating power, current and temperature specification  limit. Configuration options: [Disabled] [Enabled]  The following items appear only when you set the Turbo Mode to  [Enabled] .",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "Turbo Mode Parameters",
+      "text": "Turbo Mode Parameters",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Long Duration Package Power Limit [Auto]  Allows you to limit the Turbo Ratio’s time duration that exceeds the TDP (Thermal  Design Power) for maximum performance. Use the  $_{<+>}$   or  $<->$   keys to adjust the value.  The values range from 1 W to 4095 W.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Package Power Time Window [Auto]  Also known as Power Limit 1, this item allows you to maintain the time window for  Turbo Ratio over TDP (Thermal Design Power). Use the  ${<}+>$   or  $<->$   keys to adjust the  value. The values range from 1 to 127 in seconds.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Short Duration Package Power Limit [Auto]  Also known as Power Limit 2, this item allows you to provide rapid protection when  the package power exceeds the Power Limit 1. Use the  $_{<+>}$   or  $<->$   keys to adjust the  value. The values range from 1 W to 4095 W.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "IA AC Load Line [Auto]  This item allows you to set the AC loadline defined in 1/100 mOhms. Use the  ${<}+>$   and   $<->$   keys to adjust the value. Configuration options: [Auto] [0.01] - [62.49]  IA DC Load Line [Auto]  This item allows you to set the DC loadline defined in 1/100 mOhms. Use the  ${<}+>$   and   $<->$   keys to adjust the value. Configuration options: [Auto] [0.01] - [62.49]",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "2.5.13\t CPU Core/Cache Current Limit Max. [Auto]  Allows you to set a higher current limit to prevent a frequency or power throttling when  overclocking. Use the  ${<}+>$   or  $<->$   keys to adjust the value. The values range from 0.00A to  255.50A with a 0.25A interval.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "2.5.14\t CPU Graphics Current Limit Max. [Auto]  Allows you to set a higher current limit to prevent a frequency or power throttling when  overclocking. Use the  ${<}+>$   or  $<->$   keys to adjust the value. The values range from 0.00A to  255.50A with a 0.25A interval.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "2.5.15\t Min. CPU Cache Ratio [Auto]  Allows you to set the minimum possible CPU cache ratio. Use the  ${<}+>$   or  $<->$   keys to adjust  the value. The values range from 8 to 83 with a 1 interval.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "2.5.16\t Max. CPU Cache Ratio [Auto]  Allows you to set the maximum possible CPU cache ratio. Use the  ${<}+>$   or  $<->$   keys to adjust  the value. The values range from 8 to 83 with a 1 interval.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "2.5.17\t Max. CPU Graphics Ratio [Auto]  Allows you to set the maximum possible CPU graphics ratio. Use the  ${<}+>$   or  $<->$   keys to  adjust the value. The values range from 1 to 60 with a 1 interval.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "2.5.18\t Extreme Over-voltage [Disabled]  This item allows you to set higher voltages for overclocking. When you enable this item,  you can choose a high level voltage to overclock, but does not guarantee the CPU life.  Configuration options: [Disabled] [Enabled]",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "2.5.19\t CPU Core/Cache Voltage [Auto]  This item allows you to configure the amount of voltage fed to the CPU cores. Increase the  voltage when setting a high Core Frequency value. Configuration options: [Auto] [Manual  Mode] [Offset Mode] [Adaptive Mode]  •\t The following item appears only when you set the CPU Core Voltage to  [Manual  Mode] . •\t [ Adaptive Mode ] is available for some specific CPU types.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "CPU Core Voltage Override [Auto]  Allows you to set the input voltage for the CPU by the external voltage regulator. Use the   ${<}+>$   or   $<->$   keys to adjust the value. The values range from 0.600V to 1.700V with a 0.005V  interval.  The following items appear only when you set the CPU Core Voltage to  [Offset Mode] .",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Offset Mode Sign  $[+]$  $[+]$  \t To offset the voltage by a positive value.  $[-]$  \t To offset the voltage by a negative value.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "CPU Core Voltage Offset [Auto]  Use the  ${<}+>$   or  $<->$   keys to adjust the value. The values range from -0.635V to  $+0.635\\lor$   with  a 0.005V interval.  The following item appears only when you set the CPU Core Voltage to  [Adaptive Mode] .",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Additional Turbo Mode CPU Core Voltage [Auto]  This item allows you to set the amount of voltage fed to the CPU cores when running in turbo  mode. Increase the voltage when configuring a high CPU core frequency. The voltage you  set is affected by the offset value. Use the  ${<+>0\\mathsf{r}<->}$  range from  $0.25\\mathsf{V}$   to   $1.920\\,\\lor$   with a  $0.001\\;\\lor$   interval.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Offset Voltage [Auto]  Use the  ${<}+>$   or  $<->$   keys to adjust the value. The values range from 0.001V to 0.999V with a   $0.001\\lor$   interval.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Total Adaptive Mode CPU Core Voltage [By CPU]  This item sums up the voltages of the CPU Core Voltage offset and Additional Turbo Mode  CPU Core Voltage options.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "2.5.20\t DRAM Voltage [Auto]  This item allows you to set the voltage for the DRAM. Use the  $_{<+>}$   and  $<->$   keys to adjust the  value. The values range from 1.000V to 1.800V with a 0.005 interval.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "2.5.21\t CPU VCCIO Voltage [Auto]  This item allows you to set the voltage for the CPU VCCIO. Use the  ${<}+>$   and  $<->$   keys to  adjust the value. The values range from 0.700V to 1.585V with a 0.005V interval.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "2.5.22\t CPU System Agent Voltage [Auto]  This item allows you to set the voltage for the CPU System Agent. Use the  ${<}+>$   and  $<->$   keys  to adjust the value. The values range from 0.700V to 1.685V with a 0.005V interval.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "2.5.23\t CPU Graphics Voltage Mode [Auto]  This item allows you to configure the mode of voltage fed to the CPU Graphics Voltage.  Manual mode allows user-defined values. Offset mode modifies values by SVID.  Configuration options: [Auto] [Manual Mode] [Offset Mode]  The following item appears only when you set the CPU Graphics Voltage Mode to  [Manual  Mode] .",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "CPU Graphics Voltage Override [Auto]  This item allows you to configure the CPU Graphics Voltage Override. Use the  ${<}+>$   or  $<->$    keys to adjust the value. The values range from  $0.600\\%$   to 1.700V with a 0.005V interval.  The following item appears only when you set the CPU Core Voltage Mode to  [Offset  Mode] .",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Offset Mode Sign [+]  $[+]$  \t To offset the voltage by a positive value.  $[-]$  \t To offset the voltage by a negative value.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "CPU Graphics Voltage Offset [Auto]  This item allows you to configure the CPU Graphics Voltage Offset. Use the  ${<}+>$   or  $<->$   keys  to adjust the value. The values range from 0.001V to 0.635V with a 0.005V interval.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "2.5.24\t PCH Core Voltage [Auto]  This item allows you to set the PCH core voltage. Use the  ${<}+>$   and  $<->$   keys to adjust the  value. The values range from 0.800V to 1.635V with a 0.005V interval.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "2.5.25\t CPU Standby Voltage [Auto]  This item allows you to set the voltage for the CPU Standby. Use the  ${<}+>$   and  $<->$   keys to  adjust the value. The values range from 0.800V to 1.635V with a 0.005V interval.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "2.5.26\t DRAM REF Voltage Control [Auto]  The subitems in this menu allows you to set the DRAM reference voltage on the control lines  from the memory bus. You can use the  $_{<+>}$   or  $<->$   keys to adjust the value. The values range  from 0.39500V to 0.63000V with a 0.00500V interval.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "2.6\t Advanced menu  The Advanced menu items allow you to change the settings for the CPU and other system  devices.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Be cautious when changing the settings of the Advanced menu items. Incorrect field values  can cause the system to malfunction.  <PIC>",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "2.6.1\t CPU Configuration  The items in this menu show the CPU-related information that the BIOS automatically  detects.  The items shown in submenu may be different due to the CPU you installed.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Active Processor Cores [All]  This item allows you to select the number of CPU cores to activate in each processor  package. Configuration options: [All] [1] [2] [3]",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Intel Virtualization Technology [Enabled]  When set to  [Enabled] , a VMM can utilize the additional hardware capabilities provided by  Vanderpool Technology. Configuration options: [Disabled] [Enabled]",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Hardware Prefetcher [Enabled]  This item allows the CPU to prefetch commands and data in the L2 cache, reduces the  DRAM loading time and improves the system performance. Configuration options: [Disabled]  [Enabled]",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Adjacent Cache Line Prefetch [Enabled]  This item allows the mid level cache (L2) to prefetch adjacent cache lines, reducing the  DRAM loading time and improves the system performance. Configuration options: [Disabled]  [Enabled]",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Boot Performance Mode [Auto]  This item allows you to select the CPU performance state during system boot before the  operating system takes control. The CPU runs at a selected performance ratio based on CPU  configuration. Configuration options: [Max Battery] [Max Non-Turbo Performance]  [Turbo  Performance] [Auto]",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "CPU Power Manager ment Configuration  This item allows you to manage and configure the CPU’s power.",
+      "text": "CPU Power Manager ment Configuration  This item allows you to manage and configure the CPU’s power.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Intel  SpeedStep [Enabled]  This item allows the operating system to dynamically adjust the processor voltage and  cores frequency, resulting to a decreased average power consumption and decreased  average heat production. Configuration options: [Disabled] [Enabled]",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Turbo Mode [Enabled]  This item allows you to enable your core processor’s speed to run faster than the  base operating frequency when it is below operating power, current and temperature  specification limit. Configuration options: [Disabled] [Enabled]",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "CPU C states [Auto]  This item allows you to set the power saving of the CPU states. Configuration options:  [Auto][Disabled] [Enabled]  The following items appear only when you set the CPU C-States to  [Enabled] .",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Enhanced C-States [Enabled]  This item allows your CPU to reduce power consumption when the system is in idle  mode. Configuration options: [Enabled] [Disabled]",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "CPU C3 Report [Enabled]  This item allows you to disable or enable the CPU C3 report to the operating  system. Configuration options: [Enabled] [Disabled]",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "CPU C6 Report [Enabled]  This item allows you to disable or enable the CPU C6 report to the operating  system. Configuration options: [Enabled] [Disabled]",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Package C State limit [Auto]  This item allows you to set the a C-state support for the CPU package.  Configuration options: [C0/C1] [C2] [C3] [C6] [C7] [C7s] [Auto]",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "CFG lock [Enabled]  This item allows you to enable or disable the CFG lock. Configuration options:  [Disabled] [Enabled]",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "2.6.2\t Platform Misc Configuration  The items in this menu allow you to configure the platform-related features.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "PCI Express Native Power Management [Disabled]  This item allows you to enhance the power saving feature of PCI Express and perform ASPM  operations in the operating system. Configuration options: [Disabled] [Enabled]  The following item appears only when you set the PCI Express Native Power Management  to  [Enabled] .",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Native ASPM [Disabled]  [Enabled]\t   Vista OS controls the ASPM (active state power  management) support for devices. [Disabled]\t BIOS controls the ASPM support for the device.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "PCH - PCI Express options",
+      "text": "PCH - PCI Express options",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "DMI Link ASPM Control [Disabled]  This item allows you to control the Active State Power Management on both NB  (NorthBridge) side and SB (SouthBridge) side of the DMI Link. Configuration options:  [Disabled] [Enabled]",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "ASPM Support [Disabled]  This item allows you to select the ASPM state for energy-saving conditions. Configuration  options: [Disabled] [L0s] [L1] [L0sL1] [Auto]",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "SA - PCI Express options",
+      "text": "SA - PCI Express options",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "DMI Link ASPM Control [Disabled]  This item allows you to control the Active State Power Management on both CPU and PCH  (platform controller hub) Both DMI link ASPM control items of the CPU and PCH sides must  be enabled for the ASPM to take effect. Configuration options: [Disabled] [L1]",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "PEG ASPM [Disabled]  This item allows you to select the ASPM state for energy-saving conditions, or use the optimized energy saving profile. Configuration options: [Disabled] [Auto] [ASPM L0s] [ASPM  L1] [ASPM L0sL1]",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "2.6.3\t System Agent (SA) Configuration  Above 4GB MMIO BIOS assignment [Disabled]  Allows you to enable or disable the above 4 GB memory mapped IO BIOS assignment.  Configuration options: [Enabled] [Disabled]",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Graphics Configuration  Allows you to select a primary display from CPU, PCIE and PCI graphical devices.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Primary Display [Auto]  Allows you to select the primary display from CPU, PCIE and PCI graphics devices.  Configuration options: [Auto] [CPU Graphics] [PCIE]",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "iGPU Multi-Monitor [Disabled]  This item allows you to empower both integrated and discrete graphics devices for the  multi-monitor output. The CPU graphics shared system memory size is fixed at 64 MB.  Configuration options: [Disabled] [Enabled]",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "RC6(Render Standby) [Enabled]  Allows you to enable or disable Intel Graphics Render Standby support to reduce  iGPU power use when the system is idle. Configuration options: [Disabled] [Enabled]",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "DMI/OPI Configuration  This item allows you to control various DMI (direct media interface) to run at PCI-E 2.0 speed.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "DMI Max Link Speed [Gen2]  Allows you to configure the DMI speed. Configuration options: [Auto] [Gen1] [Gen2]  [Gen3]",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "PEG Port Configuration  Allows you to configure the PEG Port settings.",
+      "text": "PEG Port Configuration  Allows you to configure the PEG Port settings.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "PCIEx16_1/ PCIEx16_2 Link Speed [Auto]  Allows you to configure the PCIEx16 speed for slot 1 or slot 2. Configuration options:  [Auto] [Gen1] [Gen2] [Gen3]",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "Memory Configuration  Allows you to configure the memory configuration parameters.",
+      "text": "Memory Configuration  Allows you to configure the memory configuration parameters.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Memory Remap [Enabled]  Set this item to  [Enabled]  to support DRAM address remapping for 64-bit operating  systems. Configuration options: [Enabled] [Disabled]",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "2.6.4\t PCH-IO Configuration  This item allows you to configure the PCI Express configuration settings.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "PCI Express Configuration",
+      "text": "PCI Express Configuration",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "PCIe Speed [Auto]  Allows you to configure the PCIe speed. Configuration options: [Auto] [Gen1] [Gen2] [Gen3]",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "2.6.5\t SATA Configuration  While entering Setup, the BIOS automatically detects the presence of SATA devices. The  SATA Port items show  Empty  if no SATA device is installed to the corresponding SATA port.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "SATA Controller(s) [Enabled]  Enables or disables onboard the SATA device. Configuration options: [Disabled] [Enabled] The following items appear only when you set the SATA Controller(s) to  [Enabled] .",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "SATA Mode Selection [AHCI]  Allows you to set the SATA configuration.  [AHCI]\t Set to [AHCI] when you want the SATA hard disk drives to use the AHCI  (Advanced Host Controller Interface). The AHCI allows the onboard storage  driver to enable advanced Serial ATA features that increases storage  performance on random workloads by allowing the drive to internally  optimize the order of commands. [RAID]\t  Set to [RAID Mode] when you want to create a RAID configuration from the  SATA hard disk drives. The following items appear only when you set the SATA Mode Selection to  [RAID] .",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "CR#1/2/3 RST Pcie Storage Remapping [Disabled]  This item allows you to enable or disable the RST Pcie Storage Remapping feature.  Configuration options: [Auto] [Disabled] [Enabled]",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Alternate ID [Disabled]  This item allows you to enable or disable the report for the alternate device ID.  Configuration options: [Auto] [Disabled] [Enabled]",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Software Feature Mask Configuration  Allows you to configure the SWFM (Software Feature Mask) settings.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "RAID 0 / RAID 1 / RAID 10 / RAID 5 [Enabled]  Allows you to enable or disable the RAID 0 /RAID 1/ RAID 10/ RAID 5 feature.  Configuration options: [Disabled] [Enabled]",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Intel Rapid Recovery Technology [Enabled]  Allows you to enable or disable the Intel Rapid Recovery Technology. Configuration  options: [Disabled] [Enabled]",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "OROM UI and Banner [Enabled]  When enabled, the OROM UI is shown. Configuration options: [Disabled] [Enabled]",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "HDD Unlock [Enabled]  When enabled, the HDD password unlock feature is activated. Configuration options:  [Disabled] [Enabled]",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Smart Response Technology [Enabled]  Allows you to enable or disable the Smart Response technology. Configuration options:  [Disabled] [Enabled]",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "OROM UI Normal Delay [2 sec]  Allows you to select the delay time of the OROM UI Splash screen in a normal status.  Configuration options: [2 sec] [4 sec] [6 sec] [8 sec]",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Aggressive LPM Support [Disabled]  This item is designed for LPM (link power management) support with a better energy saving  conditions. When disabled, the hot plug function of SATA ports are disabled. Configuration  options: [Disabled] [Enabled]",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "SMART Self Test [On]  S.M.A.R.T. (Self-Monitoring, Analysis and Reporting Technology) is a monitoring system that  shows a warning message during POST (Power-on Self Test) when an error occurs in the  hard disks. Configuration options: [On] [Off]",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "SATA6G_1\\~6(Gray) [Enabled]  Allow you to enable/disable the SATA6G_1\\~6 port. Configuration options: [Disabled]  [Enabled]",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Hot Plug [Disabled]  These items allow you to enable/disable SATA Hot Plug Support. Configuration options:  [Disabled] [Enabled]",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "External SATA [Disabled]  Allow you to enable/disable the external SATA support. Configuration options: [Disabled]  [Enabled]",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Spin Up Device [Disabled]  Allow you to enable/disable the spin up device feature. Configuration options: [Disabled]  [Enabled]",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "SATA Device Type [Hard Disk Drive]  Allow you to identify the installed SATA device type. Configuration options: [Hard Disk Drive]  [Solid State Drive]",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Typology [Unknown]  This item allows you to identify the SATA topology. Configuration options: [Unknown] [M2]  [Direct Connect] [ISATA] [Flex]",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Device Sleep [Disabled]  This item allows you to enable or disable device sleep. Configuration options: [Disabled]  [Enabled]",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "SATA DEVSLEP Idle Timeout Config [Disabled]  This item allows you to enable or disable SATA DTIO Configuration. Configuration options:  [Disabled] [Enabled]",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "2.6.6\t USB Configuration  The items in this menu allow you to change the USB-related features.  The  USB Devices  item shows the auto-detected values. If no USB device is detected, the  item shows None.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Legacy USB Support [Enabled]  [Enabled]\t Your system supports the USB devices in legacy operating systems. [Disabled]\t Your USB devices can be used for BIOS setup only and cannot be  recognized in the boot devices list. [Auto]\t Your system automatically detects the presence of USB devices at startup.  If any USB devices are detected, the legacy USB support is enabled.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "XHCI Hand-off [Disabled]  [Enabled]\t Enables the support for operating systems without an XHCI hand‑off  feature. [Disabled]\t Disables the XHCI Hand-off support.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "USB Port Disable Override  The subitems in this menu allow you to set the USB Port Disable Override features.   USB3_1/2/3/4/5/6, USB7/8/9/10/11/12/13/14 [Enabled]  Allows you to enable or disable the USB ports individually. Configuration options:  [Disabled] [Enabled]  Refer to section  1.2.3 Motherboard layout  for the location of the USB ports.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "2.6.7\t Onboard Devices Configuration  Model Name LED Lighting [Breathing Mode]  Allows you to set the behavior of the model name LED. Configuration options: [Disabled] [Still  Mode] [Breathing Mode]",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "HD Audio Controller [Enabled]  [Enabled]\t Enables the HD Audio Device. [Disabled]\t Disables the HD Audio Device.  The following two items appear only when you set the  HD Audio Controller  item to  [Enabled].",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Front Panel Type [HD Audio]  Allows you to set the front panel audio connector (AAFP) mode to legacy AC’97 or  high-definition audio depending on the audio standard that the front panel audio  module supports. [HD]\t Sets the front panel audio connector (AAFP) mode to high definition  audio. [AC97]\t Sets the front panel audio connector (AAFP) mode to legacy AC’97",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "Depop [Enabled]  Configuration options: [Enabled] [Disabled]",
+      "text": "Depop [Enabled]  Configuration options: [Enabled] [Disabled]",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "SupremeFX LED Lighting [Breathing Mode]  Allows you to set the behavior of the model name LED. Configuration options: [Disabled] [Still  Mode] [Breathing Mode] [Flowing Mode]",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "M.2 and SATA Express SATA Mode Configuration [SATA Express]  M.2 shares SATA mode with SATA Express. Changes this item before installing M.2 SATA  devices.  [SATA Express]\t SATA mode will be switched to SATA Express. M.2 can only support PCIe  devices. [M.2]\t SATA mode will be switched to M.2. SATA Express can only support PCIe  devices.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Asmedia USB 3.1 Controller [Enabled]  [Enabled]\t Enables the onboard USB 3.0 controller. [Disabled]\t Disables the controller.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Asmedia USB 3.1 Battery Charging Support [Disabled]  This item appears only when the Asmedia USB 3.0 Controller item is set to [Enabled]. [Enabled]\t Enables the Asmedia USB 3.0 battery charging function. [Disabled]\t Disables this function.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Intel LAN Controller [Enabled]  [Enabled]\t Enables the Intel LAN controller. [Disabled]\t Disables the controller.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Intel PXE Option ROM [Off]  This item appears only when you set the previous item to [On] and allows you to enable or  disable the PXE OptionRom of the Intel LAN controller. Configuration options: [On] [Off]",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Serial Port Configuration  The sub-items in this menu allow you to set the serial port configuration.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Serial Port [On]  Allows you to enable or disable the serial port (COM).Configuration options: [On] [Off]  Change Settings [IO=3F8h; IRQ=4]  This item appears only when you set the  Serial Port  to [On] and allows you to select  the Serial Port base address. Configuration options: [IO=3F8h; IRQ=4] [IO=2F8h;  IRQ=3] [IO=3E8h; IRQ=4] [IO=2E8h; IRQ=3]",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "2.6.8\t APM Configuration",
+      "text": "2.6.8\t APM Configuration",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "Configuration options: [Enabled] [Disabled]",
+      "text": "ErP Ready [Disabled]  Allows BIOS to switch off some power at S5 to get the system ready for ErP requirement.  When set to [Enabled], all other PME options will be switched off. \n Configuration options: [Enabled] [Disabled]",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Deep S4 [Disabled]  When enabled, the system in S4 state will further reduce power usage and will power off the  USB and PS/2 devices. The system in deep S4 state can be woken up via the power button,  devices in LAN, or other ways except via the USB and PS/2 devices. Configuration options:  [Disabled] [Enabled]",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Restore AC Power Loss [Power Off]  [Power On]\t The system goes into on state after an AC power loss. [Power Off]\t The system goes into off state after an AC power loss. [Last State]\t The system goes into either off or on state, whatever the system state was  before the AC power loss.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Power On By PS/2 Keyboard [Disabled]  [Disabled]\t Disables the Power On by a PS/2 keyboard. [Space Bar]\t Sets the Space Bar on the PS/2 keyboard to turn on the system. [Ctrl-Esc]\t Sets the Ctrl+Esc key on the PS/2 keyboard to turn on the system.  [Power Key]\t Sets Power key on the PS/2 keyboard to turn on the system. This feature  requires an ATX power supply that provides at least 1A on the  $+5\\mathsf{V S B}$   lead.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Power On By PCI-E/PCI [Disabled]  This item allows you to enable or disable the Wake-on-LAN function of the onboard LAN  controller or other installed PCIe/PCI LAN cards. Configuration options: [Disabled] [Enabled]",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Power On By Ring [Disabled]  [Disabled]\t Disables Ring to generate a wake event. [Enabled]\t Enables Ring to generate a wake event.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Power On By RTC [Disabled]  This item allows you to enable or disable the RTC (Real-Time Clock) to generate a wake  event and configure the RTC alarm date. When enabled, you can set the days, hours,  minutes, or seconds to schedule an RTC alarm date. Configuration options: [Disabled]  [Enabled]",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "2.6.9\t Network Stack Configuration",
+      "text": "2.6.9\t Network Stack Configuration",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Network Stack [Disabled]  This item allows user to disable or enable the UEFI network stack. Configuration options:  [Disabled] [Enabled]  The following two items appear only when you set the previous item to [Enabled].",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Ipv4 / Ipv6 PXE Support [Enabled]  This item allows you to enable or disable the Ipv4/Ipv6 PXE wake event. Configuration  options: [Disabled] [Enabled]",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "2.7\t Monitor menu  The Monitor menu displays the system temperature/power status, and allows you to change  the fan settings.  Scroll down to display the other BIOS items.  <PIC>  2.7.1\t CPU Temperature, MotherBoard Temperature,  VRM Temperature, PCH Temperature, T_Sensor  Temperature, EXT_Sensor 1/2/3 Temperature   $\\textstyle\\left[{\\pmb x}{\\pmb x}^{\\circ}{\\pmb C}\\right/$   ${\\pmb{\\chi}}{\\pmb{\\chi}}^{\\circ}{\\pmb{\\mathsf{F}}}]$   or [Ignore]  The onboard hardware monitor automatically detects and displays the CPU and motherboard  temperatures.  Select  [Ignore]  if you do not wish to display the detected temperatures.  2.7.2\t CPU Fan Speed, CPU Optional Fan Speed, Chassis  Fan 1/2/3 Speed, Extension Fan 1/2/3 Speed [xxxx  RPM] or [Ignore] / [Monitor]  The onboard hardware monitor automatically detects and displays the CPU, chassis and  extension fan speeds in rotations per minute (RPM). If the fan is not connected to the  motherboard, the field shows N/A. Select  [Ignore]  if you do not wish to display the detected  speed.  2.7.3\t CPU Core Voltage, CPU Graphics Voltage, 3.3V  Voltage, 5V Voltage, 12V Voltage, PCH Core Voltage,  CPU System Agent Voltage, CPU VCCIO Voltage,  DRAM Voltage, CPU Standby Voltage  The onboard hardware monitor automatically detects the voltage output through the onboard  voltage regulators. Select  [Ignore]  if you do not want to detect this item.",
+      "pics": [
+        "Manual25_83"
+      ],
+      "pic_captions": [
+        "BIOS Monitor tab temperature and fan status"
+      ]
+    },
+    {
+      "heading": "2.7.4\t Q-Fan Configuration  The subitems in this menu allows you to configure the Q-Fan features.",
+      "text": "2.7.4\t Q-Fan Configuration  The subitems in this menu allows you to configure the Q-Fan features.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Qfan Tuning  Click this item to automatically detect the lowest speed and configure the minimum duty cycle  for each fan.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "CPU Q-Fan Control [PWM Mode]  [Auto]\t Enables the CPU Q-Fan control for 4-pin CPU fan. [Disabled]\t Disables the CPU Q-Fan control feature. [PWM Mode]\t Enable the CPU Q-Fan control in PWM mode for 4-pin CPU fan. [DC Mode]\t Enable the CPU Q-Fan control in DC mode for 3-pin CPU fan.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "CPU Fan Speed Lower Limit [300 RPM]  This item appears only when you enable the CPU Q-Fan Control feature and allows you to  disable or set the CPU fan warning speed. Configuration options: [Ignore] [200RPM] [300  RPM] [400 RPM] [500 RPM] [600RPM]",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "CPU Fan Profile [Standard]  This item appears only when you enable the CPU Q-Fan Control feature and allows you to  set the appropriate performance level of the CPU fan. [Standard]\t Sets to [Standard] to make the CPU fan automatically adjust depending on  the CPU temperature. [Silent]\t Sets to [Silent] to minimize the fan speed for quiet CPU fan operation. [Turbo]\t Sets to [Turbo] to achieve maximum CPU fan speed. [Manual]\t Sets to [Manual] to assign detailed fan speed control parameters. The following items appear only when you set  CPU Fan Profile  to [Manual].",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "CPU Upper Temperature [70]  Use the  ${<}+>$   and  $<->$   keys to adjust the upper limit of the CPU temperature. The values  range from  $25\\mathrm{{}^{\\circ}C}$   to  $75\\mathrm{{}^{\\circ}C}$  .",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "CPU Fan Max. Duty Cycle  $(\\%)$   [100]  Use the  ${<}+>$   and  $<->$   keys to adjust the maximum CPU fan duty cycle. The values  range from  $20\\%$   to  $100\\%$  . When the CPU temperature reaches the upper limit, the  CPU fan will operate at the maximum duty cycle.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "CPU Middle Temperature [25]  Use the  ${<}+>$   or  $<->$   keys to set the value for CPU Middle Temperature. The range of  the values depends on the CPU installed.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "CPU Fan Middle Duty Cycle  $(\\%)$   [20]  Use the  ${<}+>$   or  $<->$   keys to adjust the CPU fan middle duty cycle. The values range  from  $20\\%$   to   $100\\%$  . When the CPU temperature reaches the upper limit, the CPU fan  operates at the maximum duty cycle.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "CPU Lower Temperature [20]  Use the  ${<}+>$   or  $<->$   keys to adjust the CPU fan’s lower temperature. The values range  from  $0^{\\circ}\\mathrm{C}$   to  $75^{\\circ}\\mathrm{C}$  .",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "CPU Fan Min. Duty Cycle(  $\\%)$   [20]  Use the  ${<}+>$   and  $<->$   keys to adjust the minimum CPU fan duty cycle. The values  range from   $20\\%$   to  $100\\%$  . When the CPU temperature is under the lower limit, the CPU  fan will operate at the minimum duty cycle.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "2.7.5\t Chassis Fan 1/2/3 Q-Fan Control [DC Mode]  [PWM mode]\t Enables the chassis Q-Fan control in PWM mode for 4-pin chassis fan. [DC mode]\t Enables the chassis Q-Fan control in DC mode for 3-pin chassis fan. [Disabled]\t Disables the chassis Q-Fan control feature.  The following items appear only when you set the Chassis Fan 1/2/3 Q-Fan Control to  [PWM Mode]  or  [DC Mode] .",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Chassis Fan 1/2/3 Q-Fan Source [CPU]  This item controls the assigned fan according to the selected temperature source.  Configuration options: [CPU] [MotherBoard] [VRM] [PCH] [T_Sensor] [EXT Sensor 1] [EXT_ Sensor2] [EXT Sensor 3]",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Chassis Fan 1/2/3 Speed Low Limit [300 RPM]  This item allows you to disable or set the chassis fan warning speed. Configuration options:  [Ignore] [200RPM] [300 RPM] [400 RPM] [500 RPM] [600 RPM]",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Chassis Fan 1/2/3 Profile [Standard]  This item allows you to set the appropriate performance level of the chassis fan.  [Standard]\t Sets to [Standard] to make the chassis fan automatically adjust depending  on the chassis temperature. [Silent]\t Sets to [Silent] to minimize the fan speed for quiet chassis fan operation. [Turbo]\t Sets to [Turbo] to achieve maximum chassis fan speed. [Manual]\t Sets to [Manual] to assign detailed fan speed control parameters.  The following items appear only when you set  Chassis Fan 1/2/3 Profile  to [Manual].",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Chassis Fan 1/2/3 Upper Temperature [70]  Use the  ${<}+>$   or  $<->$   keys to adjust the upper limit of the chassis fan temperature. The  values range from   $45^{\\circ}\\mathrm{C}$   to  $75^{\\circ}\\mathrm{C}$  .",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Chassis Fan 1/2/3 Max. Duty Cycle  $(\\%)$   [100]  Use the  ${<}+>$   or  $<->$   keys to adjust the maximum chassis fan duty cycle. The values  range from   $60\\%$   to  $100\\%$  . When the chassis temperature reaches the upper limit, the  chassis fan will operate at the maximum duty cycle.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Chassis Fan 1/2/3 Middle Temperature [45]  Use the  ${<}+>$   or  $<->$   keys to set the value for Chassis Fan Middle Temperature.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Chassis Fan 1/2/3 Middle Duty Cycle  $(\\%)$  ) [60]  Use the  ${<}+>$   or  $<->$   keys to adjust the chassis fan middle duty cycle. The values range  from  $60\\%$   to   $100\\%$  .",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Chassis Fan 1/2/3 Lower Temperature [40]  Use the  ${<}+>$   or  $<->$   keys to adjust the chassis fans’ lower temperature. The values  range from  $0^{\\circ}\\mathrm{C}$   to  $75^{\\circ}\\mathrm{C}$  .  Chassis Fan 1/2/3 Min. Duty Cycle  $\\%)$   [60]  Use the  ${<}+>$   or  $<->$   keys to adjust the minimum chassis fan duty cycle. The values  range from  $0\\%$   to  $100\\%$  . When the CPU temperature is under the lower limit, the  chassis fan operates at the minimum duty cycle.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "2.7.6\t Extension Fan 1/2/3 Q-Fan Control [DC Mode]  [PWM mode]\t Enables the extension Q-Fan control in PWM mode for 4-pin chassis fan. [DC mode]\t Enables the extension Q-Fan control in DC mode for 3-pin chassis fan. [Disabled]\t Disables the extension Q-Fan control feature.  The following items appear only when you set the Extension Fan 1/2/3 Q-Fan Control to  [PWM Mode]  or  [DC Mode] .",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Extension Fan 1/2/3 Q-Fan Source [CPU]  This item controls the assigned fan according to the selected temperature source.  Configuration options: [CPU] [MotherBoard] [VRM] [PCH] [T_Sensor] [EXT Sensor 1] [EXT_ Sensor2] [EXT Sensor 3]",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Extension Fan 1/2/3 Speed Low Limit [300 RPM]  This item allows you to disable or set the extension fan warning speed. Configuration options:  [Ignore] [200RPM] [300 RPM] [400 RPM] [500 RPM] [600 RPM]",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Extension Fan 1/2/3 Profile [Standard]  This item allows you to set the appropriate performance level of the extension fan.  [Standard]\t Sets to [Standard] to make the extension fan automatically adjust  depending on the chassis temperature. [Silent]\t Sets to [Silent] to minimize the fan speed for quiet extension fan operation. [Turbo]\t Sets to [Turbo] to achieve maximum extension fan speed. [Manual]\t Sets to [Manual] to assign detailed fan speed control parameters. The following items appear only when you set  Extension Fan 1/2/3 Profile  to [Manual].",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Extension Fan  $\\mathbf{\\lambda}_{1/2/3}$   Upper Temperature [70]  Use the  ${<}+>$   or  $<->$   keys to adjust the upper limit of the extension fan temperature. The  values range from  $_{20^{\\circ}\\mathsf{C}}$   to  $75^{\\circ}\\mathrm{C}$  .  Extension Fan  $\\mathbf{\\lambda}_{1/2/3}$   Max. Duty Cycle  $(\\%)$  ) [100]  Use the  ${<}+>$   or  $<->$   keys to adjust the maximum extension fan duty cycle. The values  range from  $60\\%$   to  $100\\%$  . When the chassis temperature reaches the upper limit, the  extension fan will operate at the maximum duty cycle.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Extension Fan  $\\mathbf{\\lambda}_{1/2/3}$   Middle Temperature [45]  Use the  ${<}+>$   or  $<->$   keys to set the value for Extension Fan Middle Temperature.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Extension Fan 1/2/3 Middle Duty Cycle  $\\%)$  ) [60]  Use the  ${<}+>$   or  $<->$   keys to adjust the extension fan middle duty cycle. The values  range from   $60\\%$   to  $100\\%$  .",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Extension Fan 1/2/3 Lower Temperature [40]  Use the  ${<}+>$   or  $<->$   keys to adjust the extension fans’ lower temperature. The values  range from   $0^{\\circ}\\mathrm{C}$   to  $75\\mathrm{{}^{\\circ}C}$  .  Extension Fan 1/2/3 Min. Duty Cycle  $\\left(\\%\\right)$   [60]  Use the  ${<}+>$   or  $<->$   keys to adjust the minimum extension fan duty cycle. The values  range from   $60\\%$   to  $100\\%$  . When the CPU temperature is under the lower limit, the  extension fan operates at the minimum duty cycle.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "2.7.7\t Anti Surge Support [On]  This item allows you to enable or disable the Anti Surge function.",
+      "text": "2.7.7\t Anti Surge Support [On]  This item allows you to enable or disable the Anti Surge function.\n Configuration options: [On] [Off]",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "2.8\t Boot menu  The Boot menu items allow you to change the system boot options. Scroll down to display the other BIOS items.  <PIC>",
+      "pics": [
+        "Manual25_84"
+      ],
+      "pic_captions": [
+        "ASUS UEFI BIOS Boot Menu Settings"
+      ]
+    },
+    {
+      "heading": "",
+      "text": "2.8.1\t Fast Boot [Enabled]  [Enabled]\t Select to accelerate the boot speed. [Disabled]\t Select to go back to normal boot speed.  The following five items appear when you set  Fast Boot  to [Enabled].",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "2.8.2\t Next Boot after AC Power Loss [Normal Boot]  [Normal Boot]\t Returns to normal boot on the next boot after AC power loss. [Fast Boot]\t Accelerates the boot speed on the next boot after AC power loss.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "2.8.3\t Boot Logo Display [Auto]  [Auto]\t Adjusts logo automatically based on   display re qur em ents. [Full Screen]\t Maximize the boot logo size. [Disabled]\t Hide the logo during POST.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "POST Delay Time [3 sec]  This item appears only when you set Boot Logo Display to [Auto] and [Full Screen]. This item  allows you to select the desired additional POST waiting time to easily enter the BIOS setup.  You can only execute the POST delay time during Normal Boot. The values range from 0 to  10 seconds.  This feature will only work under normal boot.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Post Report [5 sec]  This item appears only when you set Boot Logo Display to [Disabled]. This item allows you to  select a desired post report waiting time. Configuration options: [1 sec]  $\\sim$   [10 sec] [Until Press  ESC].",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "2.8.4\t Boot up NumLock State [Enabled]  This item allows you to enable or disable power-on state of the NumLock. Configuration  options: [Disabled] [Enabled]",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "2.8.5\t Above 4GB MMIO BIOS assignment [Disabled]  This item allows you to enable or disable boot with initialization of a minimal set of devices  required to launch active boot option. This item is ineffective for BBS boot options.  Configuration options: [Disabled] [Enabled]",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "2.8.6\t Wait for ‘F1’ If Error [Enabled]  When this item is set to [Enabled], the system waits for the F1 key to be pressed when error  occurs. Configuration options: [Disabled] [Enabled]",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "2.8.7\t Option ROM Messages [Force BIOS]  [Force BIOS]\t The third-party ROM messages will be displayed during POST. [Keep Current]\t Disables the ROM messages during  POST.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "2.8.8\t Interrupt 19 Capture [Disabled]  This item allows you to trap Interrupt 19 by the option ROMs. Configuration options:  [Disabled] [Enabled]",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "2.8.9\t Setup Mode [EZ Mode]  [Advanced Mode]\t   This item allows you to go to Advanced Mode of the BIOS after POST. [EZ Mode]\t    This item allows you to go to EZ Mode of the BIOS after POST.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "2.8.10\t CSM (Compatibility Support Module)  Allows you to configure the CSM (Compatibility Support Module) items to fully support the  various VGA, bootable devices and add-on devices for better compatibility.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Launch CSM [Enabled]  [Auto]\t  The system automatically detects the bootable devices and the add-on  devices. [Enabled]\t  For a better compatibility, enable the CSM to fully support the non-UEFI  driver add-on devices or the   UEFI mode. [Disabled]\t  Disable the CSM to fully support the   Security Update and  Security Boot. The following four items appear when you set Launch CSM to [Enabled].",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Boot Device Control [UEFI and Legacy OPROM]  Allows you to select the type of devices that you want to boot up. Configuration options:  [UEFI and Legacy OPROM] [Legacy OPROM only] [UEFI only]",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Boot from Network Devices [Legacy only]  Allows you to select the type of network devices that you want to launch. Configuration  options: [Ignore] [Legacy only] [UEFI driver first]",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Boot from Storage Devices [Legacy Only]  Allows you to select the type of storage devices that you want to launch. Configuration  options:  [Ignore] [Legacy only] [UEFI driver first]",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Boot from PCI-E Expansion Devices [Legacy Only]  Allows you to select the type of PCIe/PCI expansion devices that you want to launch.  Configuration options: [Legacy only] [UEFI driver first]",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "2.8.11\t Secure Boot  Allows you to configure the   Secure Boot settings and manage its keys to protect  the system from unauthorized access and malwares during POST.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "OS Type [ UEFI mode]  Allows you to select your installed operating system.  [ UEFI mode]\t  This item allows you to select your installed operating system.  Execute the Secure Boot check. Only select this  option when booting on   UEFI mode or other Secure Boot compliant OS. [Other OS]\t \t  Get the optimized function when booting on  non-UEFI  mode. Secure Boot only supports   UEFI  mode.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "Key Management  This allows you to manage the Secure Boot keys.",
+      "text": "Key Management  This allows you to manage the Secure Boot keys.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Install Default Secure Boot keys  This item allows you to immediately load the default Security Boot keys, Platform key  (PK), Key-exchange Key (KEK), Signature database (db), and Revoked Signatures  (dbx). When the default Secure boot keys are loaded, all the Secure Boot keys’ state  will change from Unloaded mode to loaded mode.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Save Secure Boot Keys  This item allows you to save all the Secure Boot keys to a USB storage device.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "PK Management  The Platform Key (PK) locks and secures the firmware from any non-permissible  changes. The system verifies the PK before your system enters the OS.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "Set New Key  This item allows you to load the downloaded PK from a USB storage device.",
+      "text": "Set New Key  This item allows you to load the downloaded PK from a USB storage device.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Delete key  Allows you to delete the PK from your system. Once the PK is deleted, all the  system’s Secure Boot keys will not be active. Configuration options: [Yes] [No]  \nThe PK file must be formatted as a public key certificate or UEFI variable structure with  time-based authenticated variable.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "KEK Management  The KEK (Key-exchange Key or Key Enrollment Key) manages the Signature database  (db) and Revoked Signature database (dbx).  Key-exchange Key (KEK) refers to Secure Boot Key-Enrollment Key (KEK).",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "Set New Key  Allows you to load the downloaded KEK from a USB storage device.",
+      "text": "Set New Key  Allows you to load the downloaded KEK from a USB storage device.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Append Key  Allows you to load the additional KEK from a storage device for an additional db and  dbx loaded management.  The KEK file must be formatted as a public key certificate or UEFI variable structure with  time-based authenticated variable.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "Delete key  Allows you to delete the Key from your system. Configuration options: [Yes] [No]",
+      "text": "Delete key  Allows you to delete the Key from your system. Configuration options: [Yes] [No]",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "DB Management  The db (Authorized Signature database) lists the signers or images of UEFI  applications, operating system loaders, and UEFI drivers that you can load on the  single computer.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "Set New Key  Allows you to load the downloaded db from a USB storage device.",
+      "text": "Set New Key  Allows you to load the downloaded db from a USB storage device.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Append Key  Allows you to load the additional KEK from a storage device for an additional db and  dbx loaded management.  The KEK file must be formatted as a public key certificate or UEFI variable structure with  time-based authenticated variable.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "Delete key  Allows you to delete the Key from your system. Configuration options: [Yes] [No]",
+      "text": "Delete key  Allows you to delete the Key from your system. Configuration options: [Yes] [No]",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "DBX Management  The DBX (Revoked Signature database) lists the forbidden images of db items that are  no longer trusted and cannot be loaded.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "Set New Key  Allows you to load the downloaded dbx from a USB storage device.",
+      "text": "Set New Key  Allows you to load the downloaded dbx from a USB storage device.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Append Key  Allows you to load the additional KEK from a storage device for an additional db and  dbx loaded management.  The KEK file must be formatted as a public key certificate or UEFI variable structure with  time-based authenticated variable.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "Delete key  Allows you to delete the Key from your system. Configuration options: [Yes] [No]",
+      "text": "Delete key  Allows you to delete the Key from your system. Configuration options: [Yes] [No]",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "2.8.12\t Boot Option Priorities  These items specify the boot device priority sequence from the available devices. The  number of device items that appears on the screen depends on the number of devices  installed in the system.  •\t To access  OS in Safe Mode, press  $\\scriptstyle<\\mathsf{F}8>$   after POST (  8 not  supported).  •\t To select the boot device during system startup, press  $\\scriptstyle{<\\!\\mathsf{F}8\\!>}$   when  Logo  appears.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "2.8.13\t Boot Override  These items displays the available devices. The number of device items that appears on  the screen depends on the number of devices installed in the system. Click an item to start  booting from the selected device.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "2.9\t Tool menu  The Tool menu items allow you to configure options for special functions. Select an item then  press <Enter> to display the submenu.  <PIC>",
+      "pics": [
+        "Manual25_85"
+      ],
+      "pic_captions": [
+        "BIOS Tool menu highlighting EZ Flash 3"
+      ]
+    },
+    {
+      "heading": "",
+      "text": "2.9.1\t  EZ Flash 3 Utility  Allows you to run  EZ Flash 3. Press [Enter] to launch the  EZ Flash 3 screen. For more details, see section  2.1.2  EZ Flash 3 .",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "2.9.2\t Setup Animator [Disabled]  Enables or disables the Setup animator. Configuration options: [Disabled] [Enabled]",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "2.9.3\t  Overclocking Profile  This item allows you to store or load multiple BIOS settings. The  Overclocking Profile  items show  Not assigned  if no profile is created.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Load from Profile  Allows you to load the previous BIOS settings saved in the BIOS Flash. Key in the profile  number that saved your CMOS settings, press <Enter>, and then select Yes.  •\t DO NOT shut down or reset the system while updating the BIOS to prevent the  system boot failure! •\t We recommend that you update the BIOS file only coming from the same memory/ CPU configuration and BIOS version.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "Profile Name  Allows you to create a name for the profile you want to save.",
+      "text": "Profile Name  Allows you to create a name for the profile you want to save.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Save to Profile  Allows you to save the current BIOS settings to the BIOS Flash, and create a profile. Key in a  profile number from one to eight, press <Enter>, and then select Yes.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Load/Save Profile from/to USB Drive  This item allows you to load or save profile from your USB drive, load and save profile to your  USB drive.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "2.9.4\tSPD Information  DIMM Slot Number [DIMM_A1]  Displays the Serial Presence Detect (SPD) information of the DIMM module installed on the  selected slot. Configuration options: [DIMM_A1] [DIMM_B1] [DIMM_A2] [DIMM_B2]",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "2.10\t Exit menu  The Exit menu items allow you to load the optimal default values for the BIOS items, and  save or discard your changes to the BIOS items.  <PIC>",
+      "pics": [
+        "Manual25_86"
+      ],
+      "pic_captions": [
+        "ASUS UEFI BIOS Utility Exit Menu Screen"
+      ]
+    },
+    {
+      "heading": "",
+      "text": "Load Optimized Defaults  This option allows you to load the default values for each of the parameters on the Setup  menus. When you select this option or if you press  $\\scriptstyle<\\mathsf{F}5>$  , a confirmation window appears.  Select OK to load the default values.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Save Changes & Reset  Once you are finished making your selections, choose this option from the Exit menu to  ensure the values you selected are saved. When you select this option or if you press  $\\scriptstyle<\\mathsf{F}10>$  ,  a confirmation window appears. Select OK to save changes and exit.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Discard Changes and Exit  This option allows you to exit the Setup program without saving your changes. When you  select this option or if you press <Esc>, a confirmation window appears. Select OK to discard  changes and exit.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Launch EFI Shell from USB drives  This option allows you to attempt to launch the EFI Shell application (shellx64.efi) from one of  the available USB devices.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "2.11\t Installing an operating system  Motherboard settings and hardware options vary. The setup procedures presented in this  chapter are for reference only. Refer to  operating system documentation for  detailed information.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "2.11.1 \t  OS  7 and USB 3.0 driver for 100 Series  Based on the chipset specification, the 100 series requires USB 3.0 drivers to be preloaded  in order to use USB keyboard/mouse during  OS  7 installation. This section is a guide  on preloading USB 3.0 drivers and installing  OS  7.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Method 1: Using SATA ODD & USB devices  Load USB 3.0 drivers using the  support DVD and install  OS  7 using a USB  device.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Requirement:  •\t 1 x  support DVD •\t 1 x  OS  7 installation source •\t 1 x SATA ODD •\t 1 x USB device (ODD or storage)  The USB storage device requires 8 GB or more capacity. It is recommended to format the  storage device before use.  1.\t Insert the  OS 7 installation DVD into a USB ODD, or copy all files on the  OS  7 installation DVD to a USB storage device on a working system. 2.\t Connect the USB ODD or USB storage device to your 100 series platform. 3.\t Insert the  support DVD into a SATA ODD on your 100 series platform. 4.\t Power on your system and press F8 during POST (Power-On Self Test) to enter the  boot screen.  \n<PIC>  6.\t The USB 3.0 driver will be loaded automatically during installation startup.  <PIC>  The “Setup is starting...” screen will show up if the USB 3.0 driver is loaded correctly. 7.\t Follow the onscreen instructions to complete the OS 7 installation.",
+      "pics": [
+        "Manual25_87",
+        "Manual25_88"
+      ],
+      "pic_captions": [
+        "Boot device selection screen with USB drive",
+        "Setup is starting installation screen"
+      ]
+    },
+    {
+      "heading": "",
+      "text": "Method 2: Using a modified 7 ISO  Load USB 3.0 drivers and install  OS 7 using a modified  OS 7 installation DVD.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Requirement:  •\t 1 x support DVD •\t 1 x  OS 7 installation source •\t 1 x Working system (PC or notebook) •\t 1 x SATA ODD  1.\t On your working system, create an ISO image file of the  OS  7 installation  source using a third-party ISO software. 2.\t Copy both “Auto Un attend.xml” and “Auto Un attend” folder from the root directory of  the  supporting DVD to your system. 3.\t Edit the ISO file and add both “Auto Un attend.xml” and “Auto Un attend” folder into the  ISO file. 4.\t Burn this ISO file onto an empty DVD to create a modified  OS  7 installation  DVD. 5.\t Insert the modified  OS 7 installation DVD into an ODD on your 100 series  platform. 6.\t Power on your system and press F8 during POST (Power-On Self Test) to enter the  boot screen. 7.\t Select the ODD as the boot device. 8.\t The USB 3.0 driver will be loaded automatically during installation startup.  <PIC>  \nThe “Setup is starting...” screen will show up if the USB 3.0 driver is loaded correctly.  9.\t Follow the onscreen instructions to complete the  OS  7 installation.  \nMethod 3: Using EZ Installer  Use the EZ Installer to create a modified  OS  7 installation source. Requirement:  •\t 1 x support DVD •\t 1 x  OS 7 installation DVD •\t 1 x Working system (PC or notebook) • \t 1 x SATA ODD • \t 1 x USB storage device (8 GB or more) 1.\t Insert the  OS 7 installation DVD. 2.\t Launch the EZ Installer located on the  support DVD. 3.\t Select a method of creating a modified OS 7 installation file: \t •\t  7 OS disk to USB storage device  - Select   7 OS disk to USB storage device  then click  Next .  <PIC>  - Check  I agree  and then click  Next .  <PIC>  \n- Select the source of the OS  7 installation disk then click  Next .  <PIC>  - Select the USB storage device and click  next .  <PIC>  Click the refresh icon   if the USB storage device is not displayed.  -  Click  Yes  to clear the contents on the USB storage device and create a  bootable USB device.  Make sure to backup contents on the USB storage device, as it will be formatted.  - Once completed, click  OK  to finish.  \n•\t  7 OS disk to ISO file  <PIC>  \n- Select   7 OS disk to ISO file  then click  Next  - Check  I agree  and then click  Next .  <PIC>",
+      "pics": [
+        "Manual25_89",
+        "Manual25_90",
+        "Manual25_91",
+        "Manual25_92",
+        "Manual25_93",
+        "Manual25_94",
+        "Manual25_95"
+      ],
+      "pic_captions": [
+        "",
+        "ASUS EZ Installer Windows 7 USB selection",
+        "ASUS EZ Installer End User License Agreement screen",
+        "ASUS EZ Installer Step 1 Disc Source",
+        "Step 2 of 3 Insert USB Device",
+        "ASUS EZ Installer Windows 7 ISO option",
+        "ASUS EZ Installer License Agreement screen"
+      ]
+    },
+    {
+      "heading": "- Select the source of the 7 installation disk then click  Next .  <PIC>",
+      "text": "- Select the source of the 7 installation disk then click  Next .  <PIC>  \n-  Select the folder to save the modified  OS 7 installation ISO file and click  Next .  <PIC>  - Once completed, click OK to finish.  -  Burn this ISO file onto an empty DVD to create a modified  OS 7  installation DVD.  4.\t Insert the modified  OS 7 installation DVD into an ODD or connect the USB  storage device with modified  OS  7 installation files onto your 100 series  platform. 5.\t Power on your system and press F8 during POST (Power-On Self Test) to enter the  boot screen. 6.\t Select the ODD or USB storage device as the boot device. 7.\t The USB 3.0 driver will be loaded automatically during installation startup.  The “Setup is starting...” screen will show up if the USB 3.0 driver is loaded correctly. 8.\t Follow the onscreen instructions to complete the OS 7 installation.",
+      "pics": [
+        "Manual25_96",
+        "Manual25_97"
+      ],
+      "pic_captions": [
+        "ASUS EZ Installer Step 1 disc source",
+        "ASUS EZ Installer Step 2 ISO folder selection"
+      ]
+    },
+    {
+      "heading": "",
+      "text": "Appendices  Notices  Federal Communications Commission Statement  This device complies with Part 15 of the FCC Rules. Operation is subject to the following two  conditions:  •  This device may not cause harmful interference. •  This device must accept any interference received including interference that may cause  undesired operation.  This equipment has been tested and found to comply with the limits for a Class B digital  device, pursuant to Part 15 of the FCC Rules. These limits are designed to provide  reasonable protection against harmful interference in a residential installation. This  equipment generates, uses and can radiate radio frequency energy and, if not installed  and used in accordance with manufacturer’s instructions, may cause harmful interference  to radio communications. However, there is no guarantee that interference will not occur  in a particular installation. If this equipment does cause harmful interference to radio or  television reception, which can be determined by turning the equipment off and on, the user  is encouraged to try to correct the interference by one or more of the following measures:  •  Reorient or relocate the receiving antenna. •  Increase the separation between the equipment and receiver. •  Connect the equipment to an outlet on a circuit different from that to which the receiver  is connected. •  Consult the dealer or an experienced radio/TV technician for help.  <PIC>  \nThe use of shielded cables for connection of the monitor to the graphics card is required  to assure compliance with FCC regulations. Changes or modifications to this unit not  expressly approved by the party responsible for compliance could void the user’s authority  to operate this equipment.",
+      "pics": [
+        "Manual25_98"
+      ],
+      "pic_captions": [
+        "Triangle warning symbol with lightning bolt inside"
+      ]
+    },
+    {
+      "heading": "",
+      "text": "IC: Canadian Compliance Statement  Complies with the Canadian ICES-003 Class B spec i cations. This device complies with RSS  210 of Industry Canada. This Class B device meets all the requirements of the Canadian  interference-causing equipment regulations.  This device complies with Industry Canada license exempt RSS standard(s). Operation is  subject to the following two conditions: (1) this device may not cause interference, and (2)  this device must accept any interference, including interference that may cause undesired  operation of the device.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Canadian Department of Communications Statement  This digital apparatus does not exceed the Class B limits for radio noise emissions from  digital apparatus set out in the Radio Interference Regulations of the Canadian Department  of Communications.  This class B digital apparatus complies with Canadian ICES-003.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "VCCI: Japan Compliance Statement VCCI Class B Statement  This is a Class B product based on the standard of the VCCI Council. If this is used near a  radio or television receiver in a domestic environment, it may cause radio interference. Install  and use the equipment according to the instruction manual.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "KC: Korea Warning Statement",
+      "text": "KC: Korea Warning Statement",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "REACH  Complying with the REACH (Registration, Evaluation, Authorisation, and Restriction of  Chemicals) regulatory framework, we published the chemical substances in our products at  REACH website.  DO NOT throw the motherboard in municipal waste. This product has been designed to  enable proper reuse of parts and recycling. This symbol of the crossed out wheeled bin  indicates that the product (electrical and electronic equipment) should not be placed in  municipal waste. Check local regulations for disposal of electronic products.  DO NOT throw the mercury-containing button cell battery in municipal waste. This symbol  of the crossed out wheeled bin indicates that the battery should not be placed in municipal  waste.",
+      "pics": [],
+      "pic_captions": []
+    },
+    {
+      "heading": "",
+      "text": "Recycling/Takeback Services  Recycling and takeback programs come from our commitment to the highest standards  for protecting our environment. We believe in providing solutions for you to be able to  responsibly recycle our products, batteries, other components as well as the packaging  materials. \nIt declares that this device is in compliance with  the essential requirements and other relevant provisions of CE Directives.  Please see the CE Declaration of Conformity for more details.",
+      "pics": [],
+      "pic_captions": []
+    }
+  ]
+}

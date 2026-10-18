@@ -1,0 +1,110 @@
+{
+  "vision_to_text": {
+    "records": 120,
+    "valid": 120,
+    "errors": 0,
+    "fallbacks": 0,
+    "product_r1": 0.6583333333333333,
+    "product_r5": 0.6833333333333333,
+    "section_r1": 0.6,
+    "section_r5": 0.6083333333333333,
+    "image_r1": 0.35833333333333334,
+    "image_r5": 0.55,
+    "section_rr": 0.6027777777777777,
+    "image_rr": 0.43972222222222224,
+    "wrong_image": 0.45,
+    "latency_median": 4.2335,
+    "latency_p95": 20.006,
+    "subsets": {
+      "derived": {
+        "records": 90,
+        "section_r5": 0.5444444444444444,
+        "image_r5": 0.5,
+        "section_mrr": 0.5370370370370371,
+        "image_mrr": 0.36962962962962964
+      },
+      "external_style": {
+        "records": 30,
+        "section_r5": 0.8,
+        "image_r5": 0.7,
+        "section_mrr": 0.8,
+        "image_mrr": 0.65
+      },
+      "synthetic": {
+        "records": 18,
+        "section_r5": 1.0,
+        "image_r5": 0.8333333333333334,
+        "section_mrr": 1.0,
+        "image_mrr": 0.8333333333333334
+      },
+      "user_photo": {
+        "records": 3,
+        "section_r5": 1.0,
+        "image_r5": 1.0,
+        "section_mrr": 1.0,
+        "image_mrr": 1.0
+      },
+      "public_photo": {
+        "records": 9,
+        "section_r5": 0.3333333333333333,
+        "image_r5": 0.3333333333333333,
+        "section_mrr": 0.3333333333333333,
+        "image_mrr": 0.16666666666666666
+      }
+    }
+  },
+  "fusion": {
+    "records": 120,
+    "valid": 120,
+    "errors": 0,
+    "fallbacks": 0,
+    "product_r1": 0.75,
+    "product_r5": 0.8583333333333333,
+    "section_r1": 0.6333333333333333,
+    "section_r5": 0.7833333333333333,
+    "image_r1": 0.375,
+    "image_r5": 0.675,
+    "section_rr": 0.6925,
+    "image_rr": 0.48444444444444446,
+    "wrong_image": 0.325,
+    "latency_median": 6.253,
+    "latency_p95": 52.279,
+    "subsets": {
+      "derived": {
+        "records": 90,
+        "section_r5": 0.7777777777777778,
+        "image_r5": 0.6666666666666666,
+        "section_mrr": 0.6566666666666667,
+        "image_mrr": 0.42925925925925923
+      },
+      "external_style": {
+        "records": 30,
+        "section_r5": 0.8,
+        "image_r5": 0.7,
+        "section_mrr": 0.8,
+        "image_mrr": 0.65
+      },
+      "synthetic": {
+        "records": 18,
+        "section_r5": 1.0,
+        "image_r5": 0.8333333333333334,
+        "section_mrr": 1.0,
+        "image_mrr": 0.8333333333333334
+      },
+      "user_photo": {
+        "records": 3,
+        "section_r5": 1.0,
+        "image_r5": 1.0,
+        "section_mrr": 1.0,
+        "image_mrr": 1.0
+      },
+      "public_photo": {
+        "records": 9,
+        "section_r5": 0.3333333333333333,
+        "image_r5": 0.3333333333333333,
+        "section_mrr": 0.3333333333333333,
+        "image_mrr": 0.16666666666666666
+      }
+    }
+  }
+}
